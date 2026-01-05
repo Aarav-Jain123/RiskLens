@@ -56,9 +56,7 @@ def main(dataset_path):
     risk_profile = df.groupby('event_type')['is_threat'].mean().mul(100).round(2)
     risk_dict = {k: f"{v}%" for k, v in risk_profile.items()}
 
-    # --- UPDATED AGGREGATION LOGIC ---
 
-    # 1. Identify specific threat types per user for the reason string
     threat_reasons = df[df['is_threat'] == 1].groupby('user_id')['event_type'].unique()
 
     user_agg = df.groupby('user_id').agg(
@@ -68,22 +66,18 @@ def main(dataset_path):
         unique_locations=('location', lambda x: list(x.unique()))
     ).reset_index()
 
-    # 2. Function to generate the reason string
     def generate_alert_reason(row):
         count = row['threat_events']
         if count == 0:
             return "Normal activity: No threats detected."
         
-        # Get the specific list of threat types for this user (e.g., ['failed_login'])
         causes = threat_reasons.get(row['user_id'], [])
         cause_str = ", ".join(causes)
         
-        return f"High Risk: Detected {int(count)} threat event(s) including [{cause_str}]"
+        return f"High Risk: Detected {int(count)} [{cause_str}] threat event(s)"
 
-    # 3. Apply the function to create the new column
     user_agg['alert_reason'] = user_agg.apply(generate_alert_reason, axis=1)
 
-    # ---------------------------------
 
     user_activity_list = user_agg.sort_values('threat_events', ascending=False).to_dict(orient='records')
 
@@ -98,10 +92,10 @@ def main(dataset_path):
             "top_threat_subclasses": top_threats_dict,
             "risk_percentage_by_event": risk_dict
         },
-        "user_activity_monitor": user_activity_list[:5] # Showing top 5 for brevity
+        "user_activity_monitor": user_activity_list[:5]
     }
+
     return output_json
 
 if __name__ == "__main__":
-    # Ensure dataset1.csv exists in your directory or change the path
     print(json.dumps(main('dataset.csv'), indent=4))

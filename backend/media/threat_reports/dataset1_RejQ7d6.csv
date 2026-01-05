@@ -1,0 +1,1001 @@
+timestamp,user_id,event_type,event_value,device_id,ip_address,location,auth_result,resource_type,resource_name
+2025-01-13 05:19:00,user_37,login,1,dev_37,10.0.5.182,Australia,success,system,auth_service
+2025-01-24 03:18:00,user_43,file_access,215,dev_43,10.0.3.146,United Kingdom,success,file,confidential_report
+2025-01-28 18:42:00,user_01,login,1,dev_01,10.0.5.238,United Kingdom,success,system,auth_service
+2025-01-07 02:43:00,user_42,login,1,dev_42,10.0.3.167,India,success,system,auth_service
+2025-01-01 03:14:00,user_04,failed_login,1,dev_04,10.0.0.35,Canada,failure,system,auth_service
+2025-01-11 19:03:00,user_34,login,1,dev_34,10.0.3.28,Australia,success,system,auth_service
+2025-01-25 18:46:00,user_05,login,1,dev_05,10.0.1.165,Australia,success,system,auth_service
+2025-01-23 13:40:00,user_55,file_access,75,dev_55,10.0.4.144,Germany,success,file,confidential_report
+2025-01-11 18:24:00,user_32,failed_login,1,dev_32,10.0.3.149,Japan,failure,system,auth_service
+2025-01-25 08:01:00,user_47,file_access,102,dev_47,10.0.3.76,Canada,success,file,confidential_report
+2025-01-21 00:43:00,user_38,failed_login,1,dev_38,10.0.4.36,Singapore,failure,system,auth_service
+2025-01-08 19:38:00,user_03,file_access,196,dev_03,10.0.3.254,Australia,success,file,confidential_report
+2025-01-26 16:16:00,user_51,failed_login,1,dev_51,10.0.2.99,Germany,failure,system,auth_service
+2025-01-30 06:41:00,user_23,login,1,dev_23,10.0.5.64,United States,success,system,auth_service
+2025-01-30 02:23:00,user_32,login,1,dev_32,10.0.4.207,Canada,success,system,auth_service
+2025-01-18 09:40:00,user_25,file_access,173,dev_25,10.0.0.214,United Kingdom,success,file,confidential_report
+2025-01-22 10:39:00,user_13,file_access,220,dev_13,10.0.4.173,Canada,success,file,confidential_report
+2025-01-21 07:34:00,user_24,login,1,dev_24,10.0.0.123,United Kingdom,success,system,auth_service
+2025-01-22 05:36:00,user_07,phishing_click,1,dev_07,10.0.1.158,Canada,success,system,auth_service
+2025-01-05 11:05:00,user_34,file_access,235,dev_34,10.0.2.252,Germany,success,file,confidential_report
+2025-01-18 16:31:00,user_35,failed_login,1,dev_35,10.0.0.101,India,failure,system,auth_service
+2025-01-13 06:28:00,user_33,failed_login,1,dev_33,10.0.2.78,Australia,failure,system,auth_service
+2025-01-02 02:56:00,user_35,login,1,dev_35,10.0.3.184,Canada,success,system,auth_service
+2025-01-01 04:38:00,user_53,file_access,56,dev_53,10.0.1.133,United States,success,file,confidential_report
+2025-01-16 13:16:00,user_36,file_access,181,dev_36,10.0.2.63,Japan,success,file,confidential_report
+2025-01-24 17:47:00,user_40,login,1,dev_40,10.0.4.89,Canada,success,system,auth_service
+2025-01-24 07:52:00,user_47,file_access,52,dev_47,10.0.5.11,United States,success,file,confidential_report
+2025-01-28 06:41:00,user_04,file_access,146,dev_04,10.0.0.68,Australia,success,file,confidential_report
+2025-01-02 17:17:00,user_40,file_access,34,dev_40,10.0.0.133,Australia,success,file,confidential_report
+2025-01-03 09:02:00,user_48,failed_login,1,dev_48,10.0.1.185,United States,failure,system,auth_service
+2025-01-23 01:07:00,user_52,file_access,31,dev_52,10.0.0.245,Japan,success,file,confidential_report
+2025-01-03 01:07:00,user_04,file_access,250,dev_04,10.0.5.233,Australia,success,file,confidential_report
+2025-01-22 16:28:00,user_29,file_access,42,dev_29,10.0.4.161,Canada,success,file,confidential_report
+2025-01-15 18:06:00,user_09,login,1,dev_09,10.0.4.14,United States,success,system,auth_service
+2025-01-26 11:07:00,user_02,failed_login,1,dev_02,10.0.0.49,Germany,failure,system,auth_service
+2025-01-24 06:11:00,user_30,login,1,dev_30,10.0.2.212,Japan,success,system,auth_service
+2025-01-06 04:22:00,user_56,login,1,dev_56,10.0.0.112,United States,success,system,auth_service
+2025-01-02 16:05:00,user_22,file_access,100,dev_22,10.0.4.156,Japan,success,file,confidential_report
+2025-01-21 01:01:00,user_33,login,1,dev_33,10.0.5.145,Japan,success,system,auth_service
+2025-01-12 00:43:00,user_14,file_access,113,dev_14,10.0.3.47,India,success,file,confidential_report
+2025-01-05 12:23:00,user_20,login,1,dev_20,10.0.1.108,United Kingdom,success,system,auth_service
+2025-01-13 17:20:00,user_54,failed_login,1,dev_54,10.0.0.176,Japan,failure,system,auth_service
+2025-01-21 20:45:00,user_60,file_access,36,dev_60,10.0.1.162,Canada,success,file,confidential_report
+2025-01-23 09:48:00,user_52,login,1,dev_52,10.0.2.120,Japan,success,system,auth_service
+2025-01-02 14:54:00,user_11,login,1,dev_11,10.0.1.26,United States,success,system,auth_service
+2025-01-25 15:42:00,user_52,login,1,dev_52,10.0.4.248,United Kingdom,success,system,auth_service
+2025-01-26 07:23:00,user_12,failed_login,1,dev_12,10.0.5.198,United Kingdom,failure,system,auth_service
+2025-01-30 23:55:00,user_31,login,1,dev_31,10.0.5.199,Australia,success,system,auth_service
+2025-01-11 04:47:00,user_38,failed_login,1,dev_38,10.0.0.131,Australia,failure,system,auth_service
+2025-01-11 13:14:00,user_30,failed_login,1,dev_30,10.0.1.189,Australia,failure,system,auth_service
+2025-01-06 05:44:00,user_09,login,1,dev_09,10.0.3.12,India,success,system,auth_service
+2025-01-30 17:35:00,user_27,failed_login,1,dev_27,10.0.0.233,Germany,failure,system,auth_service
+2025-01-03 19:37:00,user_22,login,1,dev_22,10.0.5.237,United Kingdom,success,system,auth_service
+2025-01-28 15:39:00,user_60,login,1,dev_60,10.0.4.50,Germany,success,system,auth_service
+2025-01-02 11:22:00,user_18,login,1,dev_18,10.0.0.14,India,success,system,auth_service
+2025-01-18 00:06:00,user_18,login,1,dev_18,10.0.3.223,United Kingdom,success,system,auth_service
+2025-01-21 14:46:00,user_25,file_access,113,dev_25,10.0.2.244,United States,success,file,confidential_report
+2025-01-01 19:26:00,user_60,login,1,dev_60,10.0.5.249,Singapore,success,system,auth_service
+2025-01-01 13:20:00,user_51,file_access,106,dev_51,10.0.4.36,United States,success,file,confidential_report
+2025-01-29 23:13:00,user_58,file_access,192,dev_58,10.0.3.2,Japan,success,file,confidential_report
+2025-01-18 18:52:00,user_14,login,1,dev_14,10.0.0.103,United Kingdom,success,system,auth_service
+2025-01-16 03:16:00,user_05,login,1,dev_05,10.0.5.247,Singapore,success,system,auth_service
+2025-01-25 19:07:00,user_31,login,1,dev_31,10.0.2.46,United States,success,system,auth_service
+2025-01-05 01:19:00,user_59,login,1,dev_59,10.0.5.19,Japan,success,system,auth_service
+2025-01-18 18:24:00,user_01,login,1,dev_01,10.0.0.55,Canada,success,system,auth_service
+2025-01-20 08:57:00,user_51,login,1,dev_51,10.0.5.133,Australia,success,system,auth_service
+2025-01-06 07:20:00,user_10,login,1,dev_10,10.0.1.130,Singapore,success,system,auth_service
+2025-01-11 22:53:00,user_03,login,1,dev_03,10.0.1.41,United Kingdom,success,system,auth_service
+2025-01-16 15:54:00,user_07,login,1,dev_07,10.0.0.89,Germany,success,system,auth_service
+2025-01-19 02:47:00,user_46,login,1,dev_46,10.0.5.135,Australia,success,system,auth_service
+2025-01-16 20:41:00,user_27,file_access,208,dev_27,10.0.4.107,Japan,success,file,confidential_report
+2025-01-22 21:51:00,user_51,login,1,dev_51,10.0.4.158,Singapore,success,system,auth_service
+2025-01-02 00:50:00,user_23,login,1,dev_23,10.0.4.210,Singapore,success,system,auth_service
+2025-01-25 16:32:00,user_27,failed_login,1,dev_27,10.0.4.194,United States,failure,system,auth_service
+2025-01-07 12:00:00,user_30,login,1,dev_30,10.0.2.95,Germany,success,system,auth_service
+2025-01-09 16:17:00,user_20,login,1,dev_20,10.0.0.113,Canada,success,system,auth_service
+2025-01-22 10:00:00,user_59,file_access,63,dev_59,10.0.2.167,Canada,success,file,confidential_report
+2025-01-14 13:09:00,user_26,login,1,dev_26,10.0.1.60,Singapore,success,system,auth_service
+2025-01-30 05:10:00,user_08,password_reset,1,dev_08,10.0.4.4,Japan,success,system,auth_service
+2025-01-15 01:38:00,user_20,login,1,dev_20,10.0.2.106,Singapore,success,system,auth_service
+2025-01-30 21:24:00,user_57,phishing_click,1,dev_57,10.0.0.247,Canada,success,system,auth_service
+2025-01-19 08:05:00,user_54,file_access,222,dev_54,10.0.5.134,United Kingdom,success,file,confidential_report
+2025-01-30 21:03:00,user_49,file_access,106,dev_49,10.0.1.137,Australia,success,file,confidential_report
+2025-01-05 07:50:00,user_45,login,1,dev_45,10.0.3.180,India,success,system,auth_service
+2025-01-13 00:34:00,user_14,login,1,dev_14,10.0.0.90,United Kingdom,success,system,auth_service
+2025-01-03 02:31:00,user_55,password_reset,1,dev_55,10.0.0.34,Singapore,success,system,auth_service
+2025-01-10 00:28:00,user_47,login,1,dev_47,10.0.2.70,Canada,success,system,auth_service
+2025-01-26 19:56:00,user_24,file_access,133,dev_24,10.0.5.128,Australia,success,file,confidential_report
+2025-01-18 19:46:00,user_15,password_reset,1,dev_15,10.0.3.5,Japan,success,system,auth_service
+2025-01-02 08:07:00,user_13,file_access,178,dev_13,10.0.5.227,United Kingdom,success,file,confidential_report
+2025-01-22 20:31:00,user_40,login,1,dev_40,10.0.2.68,Australia,success,system,auth_service
+2025-01-12 20:04:00,user_05,file_access,31,dev_05,10.0.3.118,United States,success,file,confidential_report
+2025-01-14 23:42:00,user_60,failed_login,1,dev_60,10.0.0.98,Canada,failure,system,auth_service
+2025-01-05 20:38:00,user_50,file_access,29,dev_50,10.0.0.147,United States,success,file,confidential_report
+2025-01-29 00:14:00,user_51,login,1,dev_51,10.0.5.45,Australia,success,system,auth_service
+2025-01-10 16:02:00,user_18,login,1,dev_18,10.0.1.140,Australia,success,system,auth_service
+2025-01-26 11:54:00,user_44,file_access,166,dev_44,10.0.0.197,Canada,success,file,confidential_report
+2025-01-01 17:59:00,user_39,login,1,dev_39,10.0.4.241,United Kingdom,success,system,auth_service
+2025-01-25 07:48:00,user_30,file_access,87,dev_30,10.0.0.121,United Kingdom,success,file,confidential_report
+2025-01-15 01:46:00,user_14,file_access,68,dev_14,10.0.0.82,United Kingdom,success,file,confidential_report
+2025-01-01 01:34:00,user_31,failed_login,1,dev_31,10.0.1.128,Canada,failure,system,auth_service
+2025-01-29 02:02:00,user_43,login,1,dev_43,10.0.3.146,United States,success,system,auth_service
+2025-01-17 11:33:00,user_13,file_access,196,dev_13,10.0.2.235,India,success,file,confidential_report
+2025-01-16 18:13:00,user_21,password_reset,1,dev_21,10.0.2.114,Japan,success,system,auth_service
+2025-01-07 13:43:00,user_12,file_access,140,dev_12,10.0.3.224,Germany,success,file,confidential_report
+2025-01-07 06:41:00,user_03,login,1,dev_03,10.0.0.82,Singapore,success,system,auth_service
+2025-01-04 07:04:00,user_60,login,1,dev_60,10.0.2.226,India,success,system,auth_service
+2025-01-27 23:58:00,user_41,login,1,dev_41,10.0.3.53,Australia,success,system,auth_service
+2025-01-26 14:22:00,user_39,file_access,58,dev_39,10.0.4.48,Germany,success,file,confidential_report
+2025-01-02 13:39:00,user_30,file_access,64,dev_30,10.0.4.94,Germany,success,file,confidential_report
+2025-01-29 06:04:00,user_35,login,1,dev_35,10.0.1.20,Singapore,success,system,auth_service
+2025-01-09 04:19:00,user_12,login,1,dev_12,10.0.3.252,Australia,success,system,auth_service
+2025-01-04 10:11:00,user_50,failed_login,1,dev_50,10.0.1.235,India,failure,system,auth_service
+2025-01-10 23:13:00,user_31,login,1,dev_31,10.0.3.55,Australia,success,system,auth_service
+2025-01-19 20:57:00,user_12,failed_login,1,dev_12,10.0.4.254,United Kingdom,failure,system,auth_service
+2025-01-30 16:49:00,user_29,login,1,dev_29,10.0.4.31,United Kingdom,success,system,auth_service
+2025-01-28 07:35:00,user_51,login,1,dev_51,10.0.1.169,Japan,success,system,auth_service
+2025-01-18 03:14:00,user_42,file_access,209,dev_42,10.0.0.64,United Kingdom,success,file,confidential_report
+2025-01-25 22:27:00,user_34,file_access,13,dev_34,10.0.0.244,Australia,success,file,confidential_report
+2025-01-24 12:00:00,user_27,login,1,dev_27,10.0.3.161,United States,success,system,auth_service
+2025-01-24 07:17:00,user_19,login,1,dev_19,10.0.1.35,Canada,success,system,auth_service
+2025-01-17 03:00:00,user_29,login,1,dev_29,10.0.3.164,United States,success,system,auth_service
+2025-01-08 20:52:00,user_10,login,1,dev_10,10.0.3.39,Australia,success,system,auth_service
+2025-01-25 10:15:00,user_42,file_access,131,dev_42,10.0.1.223,United Kingdom,success,file,confidential_report
+2025-01-19 16:35:00,user_24,file_access,161,dev_24,10.0.5.123,Singapore,success,file,confidential_report
+2025-01-07 19:04:00,user_34,login,1,dev_34,10.0.2.148,Germany,success,system,auth_service
+2025-01-07 07:53:00,user_33,login,1,dev_33,10.0.0.73,India,success,system,auth_service
+2025-01-07 19:13:00,user_19,login,1,dev_19,10.0.5.94,Singapore,success,system,auth_service
+2025-01-03 05:34:00,user_49,login,1,dev_49,10.0.1.43,United States,success,system,auth_service
+2025-01-29 04:18:00,user_17,failed_login,1,dev_17,10.0.1.1,United Kingdom,failure,system,auth_service
+2025-01-20 23:45:00,user_11,failed_login,1,dev_11,10.0.3.213,Canada,failure,system,auth_service
+2025-01-21 08:08:00,user_17,login,1,dev_17,10.0.4.71,United States,success,system,auth_service
+2025-01-14 20:04:00,user_33,login,1,dev_33,10.0.3.67,Japan,success,system,auth_service
+2025-01-06 20:11:00,user_04,login,1,dev_04,10.0.3.108,Australia,success,system,auth_service
+2025-01-25 13:52:00,user_51,file_access,51,dev_51,10.0.3.60,Germany,success,file,confidential_report
+2025-01-18 10:06:00,user_35,password_reset,1,dev_35,10.0.0.164,Singapore,success,system,auth_service
+2025-01-21 02:01:00,user_27,failed_login,1,dev_27,10.0.2.59,Singapore,failure,system,auth_service
+2025-01-21 10:23:00,user_16,login,1,dev_16,10.0.4.52,United States,success,system,auth_service
+2025-01-04 19:06:00,user_41,file_access,28,dev_41,10.0.5.147,Canada,success,file,confidential_report
+2025-01-19 08:37:00,user_28,login,1,dev_28,10.0.3.73,Canada,success,system,auth_service
+2025-01-09 12:06:00,user_60,login,1,dev_60,10.0.2.130,Singapore,success,system,auth_service
+2025-01-09 17:02:00,user_09,login,1,dev_09,10.0.1.192,Singapore,success,system,auth_service
+2025-01-20 07:45:00,user_50,login,1,dev_50,10.0.0.244,India,success,system,auth_service
+2025-01-17 10:19:00,user_33,login,1,dev_33,10.0.1.52,Canada,success,system,auth_service
+2025-01-20 12:02:00,user_10,failed_login,1,dev_10,10.0.3.215,Singapore,failure,system,auth_service
+2025-01-14 03:47:00,user_04,file_access,247,dev_04,10.0.3.36,United Kingdom,success,file,confidential_report
+2025-01-25 14:38:00,user_04,failed_login,1,dev_04,10.0.5.56,Canada,failure,system,auth_service
+2025-01-04 01:33:00,user_07,file_access,131,dev_07,10.0.0.117,Australia,success,file,confidential_report
+2025-01-21 00:22:00,user_11,password_reset,1,dev_11,10.0.1.236,Canada,success,system,auth_service
+2025-01-30 00:33:00,user_22,login,1,dev_22,10.0.5.162,Australia,success,system,auth_service
+2025-01-06 21:29:00,user_07,file_access,213,dev_07,10.0.1.224,Australia,success,file,confidential_report
+2025-01-30 18:04:00,user_45,file_access,53,dev_45,10.0.2.239,United Kingdom,success,file,confidential_report
+2025-01-20 18:45:00,user_29,login,1,dev_29,10.0.0.192,Japan,success,system,auth_service
+2025-01-12 12:22:00,user_43,password_reset,1,dev_43,10.0.4.85,Germany,success,system,auth_service
+2025-01-04 17:42:00,user_06,login,1,dev_06,10.0.0.151,United Kingdom,success,system,auth_service
+2025-01-12 10:26:00,user_54,failed_login,1,dev_54,10.0.0.1,Japan,failure,system,auth_service
+2025-01-12 10:49:00,user_26,login,1,dev_26,10.0.0.179,Germany,success,system,auth_service
+2025-01-19 08:33:00,user_04,login,1,dev_04,10.0.5.198,Canada,success,system,auth_service
+2025-01-25 23:36:00,user_31,login,1,dev_31,10.0.5.119,Japan,success,system,auth_service
+2025-01-07 11:02:00,user_25,file_access,144,dev_25,10.0.2.113,Germany,success,file,confidential_report
+2025-01-24 07:39:00,user_27,login,1,dev_27,10.0.2.20,United States,success,system,auth_service
+2025-01-25 17:53:00,user_18,failed_login,1,dev_18,10.0.3.61,Germany,failure,system,auth_service
+2025-01-05 08:53:00,user_06,login,1,dev_06,10.0.5.94,Australia,success,system,auth_service
+2025-01-16 07:49:00,user_23,login,1,dev_23,10.0.1.113,Canada,success,system,auth_service
+2025-01-17 22:48:00,user_23,file_access,16,dev_23,10.0.0.216,Germany,success,file,confidential_report
+2025-01-06 10:09:00,user_20,file_access,135,dev_20,10.0.3.6,United States,success,file,confidential_report
+2025-01-28 12:21:00,user_51,phishing_click,1,dev_51,10.0.2.35,Germany,success,system,auth_service
+2025-01-23 14:23:00,user_40,failed_login,1,dev_40,10.0.2.119,Canada,failure,system,auth_service
+2025-01-23 08:46:00,user_05,login,1,dev_05,10.0.1.75,Singapore,success,system,auth_service
+2025-01-01 21:28:00,user_48,file_access,43,dev_48,10.0.0.81,United States,success,file,confidential_report
+2025-01-27 07:22:00,user_10,login,1,dev_10,10.0.1.96,India,success,system,auth_service
+2025-01-22 04:11:00,user_52,login,1,dev_52,10.0.5.239,Canada,success,system,auth_service
+2025-01-15 02:21:00,user_37,failed_login,1,dev_37,10.0.2.66,Japan,failure,system,auth_service
+2025-01-25 12:34:00,user_03,file_access,36,dev_03,10.0.5.65,Australia,success,file,confidential_report
+2025-01-16 10:51:00,user_16,file_access,19,dev_16,10.0.2.65,Singapore,success,file,confidential_report
+2025-01-21 22:00:00,user_01,file_access,246,dev_01,10.0.2.172,Germany,success,file,confidential_report
+2025-01-24 11:56:00,user_28,failed_login,1,dev_28,10.0.5.151,Canada,failure,system,auth_service
+2025-01-22 21:29:00,user_07,file_access,72,dev_07,10.0.0.175,Australia,success,file,confidential_report
+2025-01-28 19:50:00,user_15,failed_login,1,dev_15,10.0.1.213,Germany,failure,system,auth_service
+2025-01-06 07:51:00,user_44,login,1,dev_44,10.0.0.23,Japan,success,system,auth_service
+2025-01-30 06:27:00,user_05,file_access,66,dev_05,10.0.2.89,United States,success,file,confidential_report
+2025-01-30 07:26:00,user_29,file_access,116,dev_29,10.0.0.49,Australia,success,file,confidential_report
+2025-01-16 23:03:00,user_01,file_access,61,dev_01,10.0.2.194,Australia,success,file,confidential_report
+2025-01-30 13:05:00,user_02,login,1,dev_02,10.0.2.6,Australia,success,system,auth_service
+2025-01-10 09:26:00,user_48,login,1,dev_48,10.0.5.254,United Kingdom,success,system,auth_service
+2025-01-13 18:44:00,user_36,file_access,39,dev_36,10.0.2.5,Germany,success,file,confidential_report
+2025-01-26 04:09:00,user_44,file_access,179,dev_44,10.0.2.244,Australia,success,file,confidential_report
+2025-01-07 13:51:00,user_26,login,1,dev_26,10.0.5.186,Singapore,success,system,auth_service
+2025-01-27 18:39:00,user_08,password_reset,1,dev_08,10.0.3.29,Singapore,success,system,auth_service
+2025-01-19 03:46:00,user_27,login,1,dev_27,10.0.3.26,Singapore,success,system,auth_service
+2025-01-21 14:23:00,user_33,file_access,78,dev_33,10.0.3.186,India,success,file,confidential_report
+2025-01-10 08:28:00,user_19,login,1,dev_19,10.0.5.28,Germany,success,system,auth_service
+2025-01-14 14:30:00,user_07,login,1,dev_07,10.0.2.167,United States,success,system,auth_service
+2025-01-08 18:01:00,user_27,login,1,dev_27,10.0.4.184,Germany,success,system,auth_service
+2025-01-05 20:15:00,user_25,login,1,dev_25,10.0.2.102,United States,success,system,auth_service
+2025-01-25 07:40:00,user_27,failed_login,1,dev_27,10.0.2.221,Germany,failure,system,auth_service
+2025-01-17 14:30:00,user_51,login,1,dev_51,10.0.3.224,Japan,success,system,auth_service
+2025-01-11 11:57:00,user_47,login,1,dev_47,10.0.5.95,Japan,success,system,auth_service
+2025-01-17 15:11:00,user_10,login,1,dev_10,10.0.4.18,Canada,success,system,auth_service
+2025-01-30 07:25:00,user_43,file_access,72,dev_43,10.0.5.16,United States,success,file,confidential_report
+2025-01-11 02:17:00,user_11,failed_login,1,dev_11,10.0.5.208,India,failure,system,auth_service
+2025-01-30 02:30:00,user_34,file_access,37,dev_34,10.0.2.64,Australia,success,file,confidential_report
+2025-01-27 09:16:00,user_01,login,1,dev_01,10.0.5.41,United States,success,system,auth_service
+2025-01-03 18:28:00,user_33,failed_login,1,dev_33,10.0.5.248,United States,failure,system,auth_service
+2025-01-24 12:02:00,user_23,login,1,dev_23,10.0.4.238,United States,success,system,auth_service
+2025-01-01 05:31:00,user_53,login,1,dev_53,10.0.0.99,Australia,success,system,auth_service
+2025-01-23 06:35:00,user_24,login,1,dev_24,10.0.2.9,United Kingdom,success,system,auth_service
+2025-01-09 17:05:00,user_22,file_access,99,dev_22,10.0.3.54,India,success,file,confidential_report
+2025-01-09 04:54:00,user_52,file_access,73,dev_52,10.0.1.62,Japan,success,file,confidential_report
+2025-01-13 13:10:00,user_54,login,1,dev_54,10.0.1.250,Germany,success,system,auth_service
+2025-01-07 06:33:00,user_11,login,1,dev_11,10.0.4.142,Singapore,success,system,auth_service
+2025-01-19 12:21:00,user_01,login,1,dev_01,10.0.0.243,Singapore,success,system,auth_service
+2025-01-17 15:00:00,user_28,login,1,dev_28,10.0.2.147,United Kingdom,success,system,auth_service
+2025-01-22 10:52:00,user_21,login,1,dev_21,10.0.2.213,United States,success,system,auth_service
+2025-01-06 00:11:00,user_44,login,1,dev_44,10.0.0.250,United States,success,system,auth_service
+2025-01-03 22:12:00,user_31,failed_login,1,dev_31,10.0.2.52,Singapore,failure,system,auth_service
+2025-01-06 22:23:00,user_46,file_access,184,dev_46,10.0.2.115,Canada,success,file,confidential_report
+2025-01-08 05:51:00,user_18,file_access,121,dev_18,10.0.2.41,Canada,success,file,confidential_report
+2025-01-03 12:02:00,user_12,file_access,56,dev_12,10.0.0.31,Canada,success,file,confidential_report
+2025-01-06 11:03:00,user_40,login,1,dev_40,10.0.5.31,Singapore,success,system,auth_service
+2025-01-22 19:09:00,user_21,login,1,dev_21,10.0.5.9,Australia,success,system,auth_service
+2025-01-30 21:03:00,user_34,file_access,160,dev_34,10.0.1.30,Singapore,success,file,confidential_report
+2025-01-25 23:26:00,user_41,login,1,dev_41,10.0.4.81,India,success,system,auth_service
+2025-01-26 16:30:00,user_11,file_access,81,dev_11,10.0.4.130,Canada,success,file,confidential_report
+2025-01-02 10:06:00,user_08,login,1,dev_08,10.0.1.99,United Kingdom,success,system,auth_service
+2025-01-25 23:48:00,user_16,login,1,dev_16,10.0.1.253,Germany,success,system,auth_service
+2025-01-21 07:20:00,user_21,failed_login,1,dev_21,10.0.1.167,Australia,failure,system,auth_service
+2025-01-29 19:12:00,user_58,file_access,50,dev_58,10.0.0.43,Singapore,success,file,confidential_report
+2025-01-02 15:23:00,user_04,login,1,dev_04,10.0.5.169,United States,success,system,auth_service
+2025-01-27 09:24:00,user_30,file_access,148,dev_30,10.0.4.229,Australia,success,file,confidential_report
+2025-01-07 13:46:00,user_21,login,1,dev_21,10.0.4.231,United Kingdom,success,system,auth_service
+2025-01-25 20:27:00,user_60,failed_login,1,dev_60,10.0.2.164,Germany,failure,system,auth_service
+2025-01-30 20:42:00,user_44,password_reset,1,dev_44,10.0.0.161,Germany,success,system,auth_service
+2025-01-27 11:31:00,user_35,login,1,dev_35,10.0.1.78,Australia,success,system,auth_service
+2025-01-23 13:32:00,user_45,file_access,59,dev_45,10.0.0.221,United States,success,file,confidential_report
+2025-01-14 18:56:00,user_42,login,1,dev_42,10.0.2.218,Japan,success,system,auth_service
+2025-01-27 17:22:00,user_24,password_reset,1,dev_24,10.0.4.145,Japan,success,system,auth_service
+2025-01-27 10:31:00,user_08,failed_login,1,dev_08,10.0.5.217,Canada,failure,system,auth_service
+2025-01-28 12:01:00,user_14,file_access,22,dev_14,10.0.3.123,Australia,success,file,confidential_report
+2025-01-17 17:27:00,user_45,login,1,dev_45,10.0.2.222,United Kingdom,success,system,auth_service
+2025-01-17 05:57:00,user_04,file_access,157,dev_04,10.0.4.51,India,success,file,confidential_report
+2025-01-17 04:55:00,user_01,file_access,86,dev_01,10.0.2.241,Singapore,success,file,confidential_report
+2025-01-19 21:02:00,user_42,failed_login,1,dev_42,10.0.4.248,Japan,failure,system,auth_service
+2025-01-28 13:46:00,user_10,failed_login,1,dev_10,10.0.5.204,Australia,failure,system,auth_service
+2025-01-25 03:10:00,user_34,file_access,175,dev_34,10.0.5.234,Germany,success,file,confidential_report
+2025-01-16 17:25:00,user_60,login,1,dev_60,10.0.3.231,United States,success,system,auth_service
+2025-01-08 19:03:00,user_10,login,1,dev_10,10.0.5.145,United Kingdom,success,system,auth_service
+2025-01-30 06:05:00,user_08,login,1,dev_08,10.0.0.240,Canada,success,system,auth_service
+2025-01-27 11:57:00,user_35,login,1,dev_35,10.0.4.77,Singapore,success,system,auth_service
+2025-01-30 02:31:00,user_12,login,1,dev_12,10.0.2.171,Canada,success,system,auth_service
+2025-01-06 13:17:00,user_08,login,1,dev_08,10.0.0.116,United Kingdom,success,system,auth_service
+2025-01-08 01:30:00,user_08,login,1,dev_08,10.0.3.59,India,success,system,auth_service
+2025-01-26 06:18:00,user_28,failed_login,1,dev_28,10.0.2.13,India,failure,system,auth_service
+2025-01-17 04:48:00,user_18,login,1,dev_18,10.0.4.214,Germany,success,system,auth_service
+2025-01-23 19:53:00,user_33,login,1,dev_33,10.0.1.22,United Kingdom,success,system,auth_service
+2025-01-27 22:40:00,user_24,file_access,248,dev_24,10.0.3.32,Japan,success,file,confidential_report
+2025-01-14 22:20:00,user_33,failed_login,1,dev_33,10.0.4.4,Singapore,failure,system,auth_service
+2025-01-04 10:02:00,user_34,login,1,dev_34,10.0.4.22,Germany,success,system,auth_service
+2025-01-13 09:16:00,user_35,file_access,188,dev_35,10.0.4.253,United States,success,file,confidential_report
+2025-01-06 03:51:00,user_59,login,1,dev_59,10.0.3.48,Germany,success,system,auth_service
+2025-01-24 20:59:00,user_36,login,1,dev_36,10.0.1.141,Germany,success,system,auth_service
+2025-01-15 22:13:00,user_08,login,1,dev_08,10.0.1.31,Canada,success,system,auth_service
+2025-01-10 18:58:00,user_29,failed_login,1,dev_29,10.0.1.178,Germany,failure,system,auth_service
+2025-01-21 20:20:00,user_17,login,1,dev_17,10.0.1.233,United Kingdom,success,system,auth_service
+2025-01-18 23:22:00,user_18,login,1,dev_18,10.0.2.100,Australia,success,system,auth_service
+2025-01-27 07:47:00,user_50,login,1,dev_50,10.0.3.64,India,success,system,auth_service
+2025-01-28 13:49:00,user_40,login,1,dev_40,10.0.3.41,United States,success,system,auth_service
+2025-01-18 10:13:00,user_13,login,1,dev_13,10.0.0.129,Singapore,success,system,auth_service
+2025-01-09 00:31:00,user_20,login,1,dev_20,10.0.2.102,Japan,success,system,auth_service
+2025-01-15 02:04:00,user_33,phishing_click,1,dev_33,10.0.3.192,Japan,success,system,auth_service
+2025-01-25 14:26:00,user_10,file_access,103,dev_10,10.0.3.225,Japan,success,file,confidential_report
+2025-01-17 17:25:00,user_34,login,1,dev_34,10.0.1.142,India,success,system,auth_service
+2025-01-30 10:56:00,user_09,login,1,dev_09,10.0.2.46,Canada,success,system,auth_service
+2025-01-14 08:33:00,user_07,phishing_click,1,dev_07,10.0.4.171,United Kingdom,success,system,auth_service
+2025-01-04 01:29:00,user_14,login,1,dev_14,10.0.2.47,Canada,success,system,auth_service
+2025-01-15 16:32:00,user_12,file_access,110,dev_12,10.0.1.148,United Kingdom,success,file,confidential_report
+2025-01-26 17:28:00,user_33,login,1,dev_33,10.0.1.163,Japan,success,system,auth_service
+2025-01-16 22:19:00,user_38,login,1,dev_38,10.0.1.23,United Kingdom,success,system,auth_service
+2025-01-28 23:40:00,user_47,phishing_click,1,dev_47,10.0.5.97,United States,success,system,auth_service
+2025-01-30 01:12:00,user_24,failed_login,1,dev_24,10.0.0.169,Singapore,failure,system,auth_service
+2025-01-28 01:36:00,user_23,login,1,dev_23,10.0.3.100,United Kingdom,success,system,auth_service
+2025-01-28 03:13:00,user_19,login,1,dev_19,10.0.5.245,India,success,system,auth_service
+2025-01-17 06:32:00,user_13,login,1,dev_13,10.0.5.26,Canada,success,system,auth_service
+2025-01-12 04:52:00,user_54,login,1,dev_54,10.0.5.197,Canada,success,system,auth_service
+2025-01-15 21:35:00,user_06,login,1,dev_06,10.0.5.147,Singapore,success,system,auth_service
+2025-01-28 02:45:00,user_31,file_access,72,dev_31,10.0.2.182,Germany,success,file,confidential_report
+2025-01-21 20:29:00,user_42,file_access,219,dev_42,10.0.1.229,Germany,success,file,confidential_report
+2025-01-15 19:30:00,user_10,password_reset,1,dev_10,10.0.1.178,Japan,success,system,auth_service
+2025-01-04 06:12:00,user_30,password_reset,1,dev_30,10.0.3.106,Canada,success,system,auth_service
+2025-01-08 12:44:00,user_42,file_access,124,dev_42,10.0.1.180,Singapore,success,file,confidential_report
+2025-01-13 06:51:00,user_49,login,1,dev_49,10.0.3.79,United States,success,system,auth_service
+2025-01-27 17:27:00,user_56,file_access,90,dev_56,10.0.3.183,India,success,file,confidential_report
+2025-01-22 17:40:00,user_56,file_access,66,dev_56,10.0.0.247,United Kingdom,success,file,confidential_report
+2025-01-02 19:22:00,user_36,login,1,dev_36,10.0.1.130,Canada,success,system,auth_service
+2025-01-03 14:32:00,user_25,login,1,dev_25,10.0.5.86,United Kingdom,success,system,auth_service
+2025-01-05 13:19:00,user_04,file_access,232,dev_04,10.0.4.139,Japan,success,file,confidential_report
+2025-01-08 18:55:00,user_37,file_access,57,dev_37,10.0.4.181,United States,success,file,confidential_report
+2025-01-20 22:17:00,user_02,login,1,dev_02,10.0.2.82,Japan,success,system,auth_service
+2025-01-25 17:49:00,user_29,file_access,108,dev_29,10.0.1.104,Singapore,success,file,confidential_report
+2025-01-15 15:11:00,user_10,failed_login,1,dev_10,10.0.4.210,Australia,failure,system,auth_service
+2025-01-04 11:21:00,user_56,failed_login,1,dev_56,10.0.1.185,Australia,failure,system,auth_service
+2025-01-16 04:00:00,user_16,login,1,dev_16,10.0.4.82,Japan,success,system,auth_service
+2025-01-04 01:33:00,user_22,login,1,dev_22,10.0.0.113,Japan,success,system,auth_service
+2025-01-05 14:23:00,user_26,login,1,dev_26,10.0.2.133,Australia,success,system,auth_service
+2025-01-23 22:22:00,user_36,login,1,dev_36,10.0.2.54,India,success,system,auth_service
+2025-01-20 13:59:00,user_33,failed_login,1,dev_33,10.0.4.166,India,failure,system,auth_service
+2025-01-24 23:09:00,user_21,login,1,dev_21,10.0.4.228,United Kingdom,success,system,auth_service
+2025-01-10 20:35:00,user_26,file_access,176,dev_26,10.0.5.80,Canada,success,file,confidential_report
+2025-01-13 16:16:00,user_04,login,1,dev_04,10.0.4.125,United States,success,system,auth_service
+2025-01-25 21:37:00,user_48,file_access,221,dev_48,10.0.5.150,Singapore,success,file,confidential_report
+2025-01-18 16:30:00,user_09,login,1,dev_09,10.0.4.125,India,success,system,auth_service
+2025-01-16 04:13:00,user_57,phishing_click,1,dev_57,10.0.3.191,India,success,system,auth_service
+2025-01-29 23:23:00,user_25,file_access,42,dev_25,10.0.1.125,India,success,file,confidential_report
+2025-01-09 22:49:00,user_48,file_access,127,dev_48,10.0.1.253,United States,success,file,confidential_report
+2025-01-20 14:08:00,user_31,login,1,dev_31,10.0.0.40,Canada,success,system,auth_service
+2025-01-25 16:37:00,user_16,phishing_click,1,dev_16,10.0.3.46,Japan,success,system,auth_service
+2025-01-06 21:40:00,user_43,failed_login,1,dev_43,10.0.2.90,Australia,failure,system,auth_service
+2025-01-25 22:23:00,user_14,file_access,28,dev_14,10.0.0.127,Australia,success,file,confidential_report
+2025-01-27 21:11:00,user_46,login,1,dev_46,10.0.0.233,Japan,success,system,auth_service
+2025-01-24 23:51:00,user_07,login,1,dev_07,10.0.4.83,United States,success,system,auth_service
+2025-01-10 11:14:00,user_33,failed_login,1,dev_33,10.0.2.207,Australia,failure,system,auth_service
+2025-01-11 08:08:00,user_25,phishing_click,1,dev_25,10.0.5.192,Germany,success,system,auth_service
+2025-01-13 04:56:00,user_51,failed_login,1,dev_51,10.0.1.41,Japan,failure,system,auth_service
+2025-01-08 12:42:00,user_35,file_access,105,dev_35,10.0.0.75,United Kingdom,success,file,confidential_report
+2025-01-01 22:36:00,user_25,file_access,39,dev_25,10.0.0.38,Germany,success,file,confidential_report
+2025-01-01 04:57:00,user_14,phishing_click,1,dev_14,10.0.4.233,Germany,success,system,auth_service
+2025-01-22 18:18:00,user_46,login,1,dev_46,10.0.4.185,Singapore,success,system,auth_service
+2025-01-20 23:25:00,user_60,file_access,213,dev_60,10.0.5.49,Australia,success,file,confidential_report
+2025-01-28 05:27:00,user_02,failed_login,1,dev_02,10.0.4.244,United Kingdom,failure,system,auth_service
+2025-01-30 16:05:00,user_55,login,1,dev_55,10.0.1.240,India,success,system,auth_service
+2025-01-08 00:51:00,user_37,file_access,76,dev_37,10.0.2.200,Japan,success,file,confidential_report
+2025-01-02 11:13:00,user_52,failed_login,1,dev_52,10.0.4.138,Australia,failure,system,auth_service
+2025-01-11 05:22:00,user_26,login,1,dev_26,10.0.5.98,Japan,success,system,auth_service
+2025-01-09 09:27:00,user_09,login,1,dev_09,10.0.0.206,Australia,success,system,auth_service
+2025-01-13 16:24:00,user_28,login,1,dev_28,10.0.3.161,Japan,success,system,auth_service
+2025-01-15 14:31:00,user_45,failed_login,1,dev_45,10.0.3.153,Australia,failure,system,auth_service
+2025-01-21 15:52:00,user_55,password_reset,1,dev_55,10.0.1.195,India,success,system,auth_service
+2025-01-22 01:56:00,user_23,login,1,dev_23,10.0.0.208,United Kingdom,success,system,auth_service
+2025-01-01 16:26:00,user_30,login,1,dev_30,10.0.5.59,United States,success,system,auth_service
+2025-01-21 13:58:00,user_60,password_reset,1,dev_60,10.0.4.24,Canada,success,system,auth_service
+2025-01-20 11:57:00,user_57,file_access,59,dev_57,10.0.3.91,Singapore,success,file,confidential_report
+2025-01-19 14:01:00,user_36,file_access,118,dev_36,10.0.5.18,Canada,success,file,confidential_report
+2025-01-25 17:00:00,user_08,login,1,dev_08,10.0.4.95,Japan,success,system,auth_service
+2025-01-05 05:58:00,user_12,login,1,dev_12,10.0.4.80,India,success,system,auth_service
+2025-01-16 18:50:00,user_24,file_access,112,dev_24,10.0.5.186,United States,success,file,confidential_report
+2025-01-05 09:25:00,user_32,login,1,dev_32,10.0.1.245,Singapore,success,system,auth_service
+2025-01-29 15:00:00,user_26,login,1,dev_26,10.0.0.15,Singapore,success,system,auth_service
+2025-01-25 04:51:00,user_01,file_access,236,dev_01,10.0.1.63,Japan,success,file,confidential_report
+2025-01-14 04:15:00,user_44,file_access,74,dev_44,10.0.1.90,United Kingdom,success,file,confidential_report
+2025-01-20 07:02:00,user_19,file_access,112,dev_19,10.0.2.52,Japan,success,file,confidential_report
+2025-01-11 12:49:00,user_22,file_access,85,dev_22,10.0.3.134,United States,success,file,confidential_report
+2025-01-22 11:29:00,user_51,file_access,31,dev_51,10.0.0.94,Singapore,success,file,confidential_report
+2025-01-03 22:51:00,user_50,phishing_click,1,dev_50,10.0.5.121,United States,success,system,auth_service
+2025-01-16 09:59:00,user_55,file_access,50,dev_55,10.0.4.22,United Kingdom,success,file,confidential_report
+2025-01-05 22:50:00,user_48,file_access,34,dev_48,10.0.3.142,Germany,success,file,confidential_report
+2025-01-28 20:02:00,user_07,file_access,149,dev_07,10.0.1.234,Germany,success,file,confidential_report
+2025-01-26 23:30:00,user_55,login,1,dev_55,10.0.2.30,United States,success,system,auth_service
+2025-01-10 14:25:00,user_13,login,1,dev_13,10.0.1.121,Japan,success,system,auth_service
+2025-01-22 04:06:00,user_21,failed_login,1,dev_21,10.0.1.185,Germany,failure,system,auth_service
+2025-01-30 16:27:00,user_26,login,1,dev_26,10.0.4.95,Australia,success,system,auth_service
+2025-01-02 12:06:00,user_60,login,1,dev_60,10.0.3.124,India,success,system,auth_service
+2025-01-07 21:07:00,user_58,failed_login,1,dev_58,10.0.2.99,Canada,failure,system,auth_service
+2025-01-07 19:39:00,user_30,file_access,30,dev_30,10.0.2.2,India,success,file,confidential_report
+2025-01-18 11:12:00,user_43,login,1,dev_43,10.0.2.145,India,success,system,auth_service
+2025-01-18 05:27:00,user_13,phishing_click,1,dev_13,10.0.4.31,Japan,success,system,auth_service
+2025-01-16 03:22:00,user_30,login,1,dev_30,10.0.0.208,India,success,system,auth_service
+2025-01-13 13:31:00,user_37,login,1,dev_37,10.0.0.178,Australia,success,system,auth_service
+2025-01-08 19:06:00,user_24,login,1,dev_24,10.0.1.220,Canada,success,system,auth_service
+2025-01-05 07:42:00,user_45,login,1,dev_45,10.0.1.205,Japan,success,system,auth_service
+2025-01-01 17:26:00,user_43,file_access,39,dev_43,10.0.3.30,Canada,success,file,confidential_report
+2025-01-11 10:33:00,user_12,failed_login,1,dev_12,10.0.2.70,United States,failure,system,auth_service
+2025-01-09 04:13:00,user_26,login,1,dev_26,10.0.0.117,Germany,success,system,auth_service
+2025-01-18 14:58:00,user_58,login,1,dev_58,10.0.4.36,Singapore,success,system,auth_service
+2025-01-14 20:43:00,user_32,file_access,238,dev_32,10.0.1.167,United States,success,file,confidential_report
+2025-01-10 13:34:00,user_45,login,1,dev_45,10.0.4.38,United Kingdom,success,system,auth_service
+2025-01-01 09:26:00,user_41,login,1,dev_41,10.0.0.69,United Kingdom,success,system,auth_service
+2025-01-29 07:04:00,user_26,login,1,dev_26,10.0.0.152,Singapore,success,system,auth_service
+2025-01-11 20:06:00,user_02,file_access,10,dev_02,10.0.3.187,Canada,success,file,confidential_report
+2025-01-24 17:33:00,user_45,login,1,dev_45,10.0.0.241,Australia,success,system,auth_service
+2025-01-18 01:44:00,user_38,login,1,dev_38,10.0.1.147,India,success,system,auth_service
+2025-01-07 15:46:00,user_11,phishing_click,1,dev_11,10.0.2.122,India,success,system,auth_service
+2025-01-07 09:15:00,user_06,login,1,dev_06,10.0.0.185,Japan,success,system,auth_service
+2025-01-28 11:30:00,user_42,file_access,95,dev_42,10.0.1.207,Australia,success,file,confidential_report
+2025-01-20 02:19:00,user_04,login,1,dev_04,10.0.4.17,Japan,success,system,auth_service
+2025-01-12 06:29:00,user_30,login,1,dev_30,10.0.0.250,Germany,success,system,auth_service
+2025-01-05 15:18:00,user_23,login,1,dev_23,10.0.5.37,United Kingdom,success,system,auth_service
+2025-01-15 09:37:00,user_14,login,1,dev_14,10.0.1.217,India,success,system,auth_service
+2025-01-07 03:26:00,user_47,login,1,dev_47,10.0.0.92,India,success,system,auth_service
+2025-01-20 11:38:00,user_13,password_reset,1,dev_13,10.0.1.242,United Kingdom,success,system,auth_service
+2025-01-10 02:04:00,user_33,login,1,dev_33,10.0.5.248,Australia,success,system,auth_service
+2025-01-29 14:29:00,user_51,login,1,dev_51,10.0.2.18,United States,success,system,auth_service
+2025-01-08 12:02:00,user_57,login,1,dev_57,10.0.3.171,Germany,success,system,auth_service
+2025-01-02 17:30:00,user_19,file_access,206,dev_19,10.0.4.183,India,success,file,confidential_report
+2025-01-15 03:50:00,user_44,password_reset,1,dev_44,10.0.3.59,United States,success,system,auth_service
+2025-01-01 18:35:00,user_28,failed_login,1,dev_28,10.0.4.202,Japan,failure,system,auth_service
+2025-01-19 03:25:00,user_46,login,1,dev_46,10.0.2.147,Germany,success,system,auth_service
+2025-01-27 02:48:00,user_16,failed_login,1,dev_16,10.0.1.212,Germany,failure,system,auth_service
+2025-01-28 14:51:00,user_16,login,1,dev_16,10.0.0.146,United Kingdom,success,system,auth_service
+2025-01-06 18:41:00,user_09,file_access,78,dev_09,10.0.1.15,Singapore,success,file,confidential_report
+2025-01-13 16:02:00,user_58,login,1,dev_58,10.0.2.210,Japan,success,system,auth_service
+2025-01-26 20:52:00,user_32,phishing_click,1,dev_32,10.0.0.55,United States,success,system,auth_service
+2025-01-27 11:18:00,user_36,file_access,127,dev_36,10.0.1.206,Singapore,success,file,confidential_report
+2025-01-24 05:18:00,user_03,login,1,dev_03,10.0.1.148,Japan,success,system,auth_service
+2025-01-07 03:58:00,user_21,login,1,dev_21,10.0.0.122,Japan,success,system,auth_service
+2025-01-12 06:14:00,user_42,password_reset,1,dev_42,10.0.0.7,Germany,success,system,auth_service
+2025-01-26 06:58:00,user_57,file_access,249,dev_57,10.0.2.248,Canada,success,file,confidential_report
+2025-01-07 12:53:00,user_40,login,1,dev_40,10.0.3.127,Australia,success,system,auth_service
+2025-01-23 00:27:00,user_56,login,1,dev_56,10.0.4.211,India,success,system,auth_service
+2025-01-01 21:32:00,user_26,login,1,dev_26,10.0.5.217,Japan,success,system,auth_service
+2025-01-20 19:36:00,user_45,login,1,dev_45,10.0.3.134,India,success,system,auth_service
+2025-01-04 20:21:00,user_33,file_access,220,dev_33,10.0.0.253,India,success,file,confidential_report
+2025-01-26 03:28:00,user_56,login,1,dev_56,10.0.2.202,Canada,success,system,auth_service
+2025-01-11 10:14:00,user_17,login,1,dev_17,10.0.0.136,Germany,success,system,auth_service
+2025-01-13 12:40:00,user_21,failed_login,1,dev_21,10.0.0.158,Germany,failure,system,auth_service
+2025-01-16 15:17:00,user_22,login,1,dev_22,10.0.2.177,India,success,system,auth_service
+2025-01-14 23:15:00,user_27,file_access,225,dev_27,10.0.5.217,Japan,success,file,confidential_report
+2025-01-24 09:15:00,user_54,login,1,dev_54,10.0.1.139,India,success,system,auth_service
+2025-01-11 14:59:00,user_41,failed_login,1,dev_41,10.0.1.232,United Kingdom,failure,system,auth_service
+2025-01-15 09:06:00,user_28,login,1,dev_28,10.0.1.23,United Kingdom,success,system,auth_service
+2025-01-19 21:24:00,user_27,login,1,dev_27,10.0.2.43,Germany,success,system,auth_service
+2025-01-05 13:15:00,user_01,login,1,dev_01,10.0.1.122,Japan,success,system,auth_service
+2025-01-09 02:10:00,user_60,login,1,dev_60,10.0.4.110,Japan,success,system,auth_service
+2025-01-01 14:04:00,user_14,file_access,246,dev_14,10.0.1.198,Canada,success,file,confidential_report
+2025-01-12 09:18:00,user_21,file_access,120,dev_21,10.0.0.198,Japan,success,file,confidential_report
+2025-01-20 09:09:00,user_15,file_access,238,dev_15,10.0.2.236,Japan,success,file,confidential_report
+2025-01-16 23:32:00,user_07,login,1,dev_07,10.0.4.79,United Kingdom,success,system,auth_service
+2025-01-09 06:02:00,user_52,login,1,dev_52,10.0.2.165,Canada,success,system,auth_service
+2025-01-01 17:23:00,user_05,login,1,dev_05,10.0.5.126,India,success,system,auth_service
+2025-01-20 16:47:00,user_50,failed_login,1,dev_50,10.0.5.214,United Kingdom,failure,system,auth_service
+2025-01-09 19:06:00,user_48,phishing_click,1,dev_48,10.0.4.145,Japan,success,system,auth_service
+2025-01-04 09:31:00,user_18,file_access,63,dev_18,10.0.2.223,Japan,success,file,confidential_report
+2025-01-13 13:35:00,user_38,file_access,56,dev_38,10.0.1.82,United States,success,file,confidential_report
+2025-01-27 13:53:00,user_30,login,1,dev_30,10.0.2.34,United States,success,system,auth_service
+2025-01-24 19:14:00,user_09,login,1,dev_09,10.0.4.83,Australia,success,system,auth_service
+2025-01-21 12:43:00,user_29,file_access,23,dev_29,10.0.5.152,Canada,success,file,confidential_report
+2025-01-29 22:40:00,user_19,failed_login,1,dev_19,10.0.0.105,India,failure,system,auth_service
+2025-01-02 05:14:00,user_56,failed_login,1,dev_56,10.0.4.230,United Kingdom,failure,system,auth_service
+2025-01-14 12:01:00,user_15,login,1,dev_15,10.0.2.41,Japan,success,system,auth_service
+2025-01-04 13:15:00,user_09,failed_login,1,dev_09,10.0.0.152,United States,failure,system,auth_service
+2025-01-04 10:18:00,user_20,file_access,59,dev_20,10.0.5.222,Australia,success,file,confidential_report
+2025-01-29 20:10:00,user_48,file_access,17,dev_48,10.0.4.46,Japan,success,file,confidential_report
+2025-01-16 16:18:00,user_16,login,1,dev_16,10.0.2.196,Germany,success,system,auth_service
+2025-01-27 12:36:00,user_14,login,1,dev_14,10.0.2.9,Singapore,success,system,auth_service
+2025-01-16 05:49:00,user_01,login,1,dev_01,10.0.5.107,Canada,success,system,auth_service
+2025-01-08 23:28:00,user_23,login,1,dev_23,10.0.1.113,United States,success,system,auth_service
+2025-01-02 04:58:00,user_52,file_access,180,dev_52,10.0.3.118,Canada,success,file,confidential_report
+2025-01-19 07:42:00,user_27,login,1,dev_27,10.0.3.239,Germany,success,system,auth_service
+2025-01-28 15:04:00,user_49,failed_login,1,dev_49,10.0.5.78,Japan,failure,system,auth_service
+2025-01-10 11:10:00,user_09,failed_login,1,dev_09,10.0.3.32,United Kingdom,failure,system,auth_service
+2025-01-19 02:44:00,user_50,failed_login,1,dev_50,10.0.2.232,Singapore,failure,system,auth_service
+2025-01-08 11:08:00,user_45,file_access,27,dev_45,10.0.0.148,Japan,success,file,confidential_report
+2025-01-09 23:20:00,user_53,login,1,dev_53,10.0.0.122,India,success,system,auth_service
+2025-01-06 00:33:00,user_38,file_access,72,dev_38,10.0.1.119,United Kingdom,success,file,confidential_report
+2025-01-01 10:29:00,user_26,login,1,dev_26,10.0.3.188,United States,success,system,auth_service
+2025-01-01 02:41:00,user_12,login,1,dev_12,10.0.5.155,Japan,success,system,auth_service
+2025-01-22 00:21:00,user_01,file_access,157,dev_01,10.0.4.81,Canada,success,file,confidential_report
+2025-01-07 17:13:00,user_01,login,1,dev_01,10.0.1.200,United Kingdom,success,system,auth_service
+2025-01-04 19:19:00,user_21,failed_login,1,dev_21,10.0.1.220,Japan,failure,system,auth_service
+2025-01-05 17:56:00,user_44,login,1,dev_44,10.0.5.142,Germany,success,system,auth_service
+2025-01-13 12:48:00,user_28,login,1,dev_28,10.0.0.18,Singapore,success,system,auth_service
+2025-01-05 19:06:00,user_33,file_access,107,dev_33,10.0.0.9,India,success,file,confidential_report
+2025-01-18 22:08:00,user_46,login,1,dev_46,10.0.1.248,Japan,success,system,auth_service
+2025-01-11 10:51:00,user_55,login,1,dev_55,10.0.4.1,Canada,success,system,auth_service
+2025-01-03 16:37:00,user_59,file_access,88,dev_59,10.0.3.41,United Kingdom,success,file,confidential_report
+2025-01-23 21:12:00,user_42,file_access,117,dev_42,10.0.4.21,United States,success,file,confidential_report
+2025-01-05 07:27:00,user_44,login,1,dev_44,10.0.1.129,Australia,success,system,auth_service
+2025-01-20 01:38:00,user_28,login,1,dev_28,10.0.1.210,India,success,system,auth_service
+2025-01-20 19:41:00,user_41,failed_login,1,dev_41,10.0.2.177,Canada,failure,system,auth_service
+2025-01-23 12:31:00,user_32,file_access,55,dev_32,10.0.4.245,Germany,success,file,confidential_report
+2025-01-26 10:52:00,user_35,failed_login,1,dev_35,10.0.3.124,Australia,failure,system,auth_service
+2025-01-27 09:43:00,user_23,failed_login,1,dev_23,10.0.3.27,Japan,failure,system,auth_service
+2025-01-26 09:26:00,user_33,phishing_click,1,dev_33,10.0.0.95,India,success,system,auth_service
+2025-01-19 20:53:00,user_03,login,1,dev_03,10.0.4.4,Singapore,success,system,auth_service
+2025-01-12 05:26:00,user_56,login,1,dev_56,10.0.4.24,Germany,success,system,auth_service
+2025-01-18 05:39:00,user_10,login,1,dev_10,10.0.0.141,India,success,system,auth_service
+2025-01-18 06:39:00,user_49,failed_login,1,dev_49,10.0.5.245,Australia,failure,system,auth_service
+2025-01-29 23:24:00,user_04,login,1,dev_04,10.0.3.64,Japan,success,system,auth_service
+2025-01-13 08:38:00,user_16,login,1,dev_16,10.0.1.121,Australia,success,system,auth_service
+2025-01-09 19:57:00,user_26,login,1,dev_26,10.0.3.186,United Kingdom,success,system,auth_service
+2025-01-03 16:53:00,user_58,login,1,dev_58,10.0.1.39,United States,success,system,auth_service
+2025-01-02 09:47:00,user_45,login,1,dev_45,10.0.4.120,United Kingdom,success,system,auth_service
+2025-01-23 08:56:00,user_27,failed_login,1,dev_27,10.0.4.112,Japan,failure,system,auth_service
+2025-01-11 23:00:00,user_47,file_access,81,dev_47,10.0.0.86,Germany,success,file,confidential_report
+2025-01-07 14:00:00,user_04,file_access,105,dev_04,10.0.3.245,Canada,success,file,confidential_report
+2025-01-14 01:02:00,user_37,login,1,dev_37,10.0.3.215,Germany,success,system,auth_service
+2025-01-12 11:39:00,user_49,file_access,16,dev_49,10.0.1.97,United Kingdom,success,file,confidential_report
+2025-01-15 01:24:00,user_36,login,1,dev_36,10.0.0.34,United Kingdom,success,system,auth_service
+2025-01-11 21:04:00,user_54,login,1,dev_54,10.0.1.197,India,success,system,auth_service
+2025-01-12 14:20:00,user_22,login,1,dev_22,10.0.5.247,Germany,success,system,auth_service
+2025-01-11 18:18:00,user_60,phishing_click,1,dev_60,10.0.1.207,Japan,success,system,auth_service
+2025-01-23 12:19:00,user_14,failed_login,1,dev_14,10.0.5.251,India,failure,system,auth_service
+2025-01-16 22:12:00,user_37,login,1,dev_37,10.0.5.187,Japan,success,system,auth_service
+2025-01-07 15:24:00,user_27,login,1,dev_27,10.0.0.56,Germany,success,system,auth_service
+2025-01-11 02:19:00,user_19,login,1,dev_19,10.0.5.4,India,success,system,auth_service
+2025-01-12 04:16:00,user_34,login,1,dev_34,10.0.5.72,Germany,success,system,auth_service
+2025-01-18 11:59:00,user_29,login,1,dev_29,10.0.4.78,Canada,success,system,auth_service
+2025-01-03 00:27:00,user_10,login,1,dev_10,10.0.4.72,Singapore,success,system,auth_service
+2025-01-21 21:40:00,user_42,file_access,98,dev_42,10.0.4.10,Germany,success,file,confidential_report
+2025-01-26 02:41:00,user_30,password_reset,1,dev_30,10.0.3.253,United States,success,system,auth_service
+2025-01-19 17:25:00,user_12,file_access,240,dev_12,10.0.0.135,Australia,success,file,confidential_report
+2025-01-18 04:18:00,user_30,login,1,dev_30,10.0.4.1,United States,success,system,auth_service
+2025-01-19 06:28:00,user_36,login,1,dev_36,10.0.4.229,United States,success,system,auth_service
+2025-01-04 02:34:00,user_24,login,1,dev_24,10.0.5.94,Canada,success,system,auth_service
+2025-01-21 17:59:00,user_09,login,1,dev_09,10.0.3.4,Singapore,success,system,auth_service
+2025-01-19 06:24:00,user_36,login,1,dev_36,10.0.3.213,Canada,success,system,auth_service
+2025-01-07 12:34:00,user_05,login,1,dev_05,10.0.1.144,Australia,success,system,auth_service
+2025-01-21 19:42:00,user_46,login,1,dev_46,10.0.5.110,Japan,success,system,auth_service
+2025-01-11 08:00:00,user_12,login,1,dev_12,10.0.4.177,Canada,success,system,auth_service
+2025-01-16 00:44:00,user_14,password_reset,1,dev_14,10.0.1.101,Australia,success,system,auth_service
+2025-01-12 04:01:00,user_02,login,1,dev_02,10.0.2.227,Australia,success,system,auth_service
+2025-01-14 19:02:00,user_29,login,1,dev_29,10.0.1.78,India,success,system,auth_service
+2025-01-11 21:04:00,user_51,login,1,dev_51,10.0.5.116,United Kingdom,success,system,auth_service
+2025-01-03 04:46:00,user_04,failed_login,1,dev_04,10.0.5.211,Canada,failure,system,auth_service
+2025-01-21 11:29:00,user_27,file_access,222,dev_27,10.0.3.194,Singapore,success,file,confidential_report
+2025-01-15 10:36:00,user_22,login,1,dev_22,10.0.2.162,India,success,system,auth_service
+2025-01-22 03:46:00,user_03,failed_login,1,dev_03,10.0.5.13,United Kingdom,failure,system,auth_service
+2025-01-30 00:55:00,user_17,login,1,dev_17,10.0.3.37,United Kingdom,success,system,auth_service
+2025-01-25 21:54:00,user_24,login,1,dev_24,10.0.3.197,United States,success,system,auth_service
+2025-01-24 17:55:00,user_02,file_access,211,dev_02,10.0.0.235,United Kingdom,success,file,confidential_report
+2025-01-01 20:27:00,user_55,file_access,10,dev_55,10.0.0.123,Japan,success,file,confidential_report
+2025-01-30 04:16:00,user_43,password_reset,1,dev_43,10.0.5.64,Australia,success,system,auth_service
+2025-01-20 16:56:00,user_28,failed_login,1,dev_28,10.0.3.147,India,failure,system,auth_service
+2025-01-29 20:31:00,user_52,file_access,168,dev_52,10.0.2.17,India,success,file,confidential_report
+2025-01-18 13:33:00,user_38,file_access,156,dev_38,10.0.1.161,Japan,success,file,confidential_report
+2025-01-27 13:29:00,user_60,login,1,dev_60,10.0.4.108,India,success,system,auth_service
+2025-01-01 19:40:00,user_52,file_access,173,dev_52,10.0.5.148,United States,success,file,confidential_report
+2025-01-26 16:12:00,user_19,failed_login,1,dev_19,10.0.3.212,Australia,failure,system,auth_service
+2025-01-06 09:53:00,user_46,password_reset,1,dev_46,10.0.5.147,India,success,system,auth_service
+2025-01-27 06:35:00,user_39,file_access,19,dev_39,10.0.0.37,United Kingdom,success,file,confidential_report
+2025-01-24 12:44:00,user_59,login,1,dev_59,10.0.1.36,United Kingdom,success,system,auth_service
+2025-01-25 01:19:00,user_11,password_reset,1,dev_11,10.0.1.169,Germany,success,system,auth_service
+2025-01-18 10:45:00,user_55,login,1,dev_55,10.0.0.27,India,success,system,auth_service
+2025-01-17 22:14:00,user_44,login,1,dev_44,10.0.2.164,Australia,success,system,auth_service
+2025-01-06 03:50:00,user_44,login,1,dev_44,10.0.5.124,Japan,success,system,auth_service
+2025-01-20 14:05:00,user_39,failed_login,1,dev_39,10.0.4.177,Japan,failure,system,auth_service
+2025-01-19 11:36:00,user_20,login,1,dev_20,10.0.3.141,Singapore,success,system,auth_service
+2025-01-22 07:26:00,user_14,file_access,13,dev_14,10.0.5.165,United States,success,file,confidential_report
+2025-01-01 09:35:00,user_57,login,1,dev_57,10.0.0.205,Japan,success,system,auth_service
+2025-01-16 15:31:00,user_52,login,1,dev_52,10.0.0.245,Canada,success,system,auth_service
+2025-01-14 01:29:00,user_30,file_access,168,dev_30,10.0.3.185,Japan,success,file,confidential_report
+2025-01-30 11:10:00,user_42,login,1,dev_42,10.0.0.174,India,success,system,auth_service
+2025-01-28 21:58:00,user_37,login,1,dev_37,10.0.4.38,Australia,success,system,auth_service
+2025-01-22 00:45:00,user_31,file_access,127,dev_31,10.0.0.97,Singapore,success,file,confidential_report
+2025-01-12 11:05:00,user_54,login,1,dev_54,10.0.2.152,Japan,success,system,auth_service
+2025-01-22 18:03:00,user_39,file_access,181,dev_39,10.0.3.136,Japan,success,file,confidential_report
+2025-01-22 13:03:00,user_41,failed_login,1,dev_41,10.0.4.74,Germany,failure,system,auth_service
+2025-01-01 05:04:00,user_51,file_access,168,dev_51,10.0.4.239,United Kingdom,success,file,confidential_report
+2025-01-12 18:57:00,user_27,login,1,dev_27,10.0.1.3,Australia,success,system,auth_service
+2025-01-06 13:42:00,user_56,file_access,67,dev_56,10.0.2.177,United States,success,file,confidential_report
+2025-01-30 14:45:00,user_46,login,1,dev_46,10.0.3.166,Canada,success,system,auth_service
+2025-01-01 20:39:00,user_28,login,1,dev_28,10.0.5.199,Singapore,success,system,auth_service
+2025-01-05 12:55:00,user_05,phishing_click,1,dev_05,10.0.2.3,Japan,success,system,auth_service
+2025-01-30 02:48:00,user_21,login,1,dev_21,10.0.2.124,United States,success,system,auth_service
+2025-01-12 19:39:00,user_56,failed_login,1,dev_56,10.0.3.52,India,failure,system,auth_service
+2025-01-20 03:58:00,user_20,login,1,dev_20,10.0.5.142,United States,success,system,auth_service
+2025-01-29 12:48:00,user_32,login,1,dev_32,10.0.4.70,Singapore,success,system,auth_service
+2025-01-01 09:48:00,user_36,file_access,128,dev_36,10.0.4.90,Germany,success,file,confidential_report
+2025-01-09 16:45:00,user_53,login,1,dev_53,10.0.2.73,India,success,system,auth_service
+2025-01-15 01:59:00,user_44,login,1,dev_44,10.0.5.132,Singapore,success,system,auth_service
+2025-01-07 02:34:00,user_07,login,1,dev_07,10.0.2.39,Singapore,success,system,auth_service
+2025-01-27 20:54:00,user_50,login,1,dev_50,10.0.0.24,United States,success,system,auth_service
+2025-01-22 14:17:00,user_37,login,1,dev_37,10.0.3.230,Australia,success,system,auth_service
+2025-01-29 02:22:00,user_07,failed_login,1,dev_07,10.0.1.41,United States,failure,system,auth_service
+2025-01-18 07:03:00,user_36,failed_login,1,dev_36,10.0.0.21,Australia,failure,system,auth_service
+2025-01-05 02:02:00,user_36,login,1,dev_36,10.0.4.182,Australia,success,system,auth_service
+2025-01-20 12:33:00,user_30,password_reset,1,dev_30,10.0.2.144,Canada,success,system,auth_service
+2025-01-01 22:43:00,user_37,file_access,218,dev_37,10.0.4.241,Singapore,success,file,confidential_report
+2025-01-21 00:10:00,user_03,login,1,dev_03,10.0.3.71,Canada,success,system,auth_service
+2025-01-23 15:03:00,user_12,login,1,dev_12,10.0.0.134,United States,success,system,auth_service
+2025-01-01 14:53:00,user_54,failed_login,1,dev_54,10.0.2.49,Japan,failure,system,auth_service
+2025-01-02 11:33:00,user_19,login,1,dev_19,10.0.2.12,United Kingdom,success,system,auth_service
+2025-01-04 14:02:00,user_52,login,1,dev_52,10.0.2.42,Australia,success,system,auth_service
+2025-01-07 11:35:00,user_04,login,1,dev_04,10.0.0.28,United Kingdom,success,system,auth_service
+2025-01-11 13:26:00,user_25,login,1,dev_25,10.0.4.240,United Kingdom,success,system,auth_service
+2025-01-08 10:39:00,user_57,failed_login,1,dev_57,10.0.5.104,Canada,failure,system,auth_service
+2025-01-08 01:46:00,user_12,login,1,dev_12,10.0.1.232,United States,success,system,auth_service
+2025-01-10 14:20:00,user_42,file_access,69,dev_42,10.0.2.190,India,success,file,confidential_report
+2025-01-11 17:21:00,user_43,login,1,dev_43,10.0.0.76,Australia,success,system,auth_service
+2025-01-12 12:27:00,user_50,file_access,250,dev_50,10.0.2.114,Germany,success,file,confidential_report
+2025-01-28 17:52:00,user_19,login,1,dev_19,10.0.5.20,Australia,success,system,auth_service
+2025-01-04 00:00:00,user_60,phishing_click,1,dev_60,10.0.4.146,Canada,success,system,auth_service
+2025-01-18 13:40:00,user_54,file_access,176,dev_54,10.0.4.147,United States,success,file,confidential_report
+2025-01-02 01:46:00,user_52,password_reset,1,dev_52,10.0.0.162,United Kingdom,success,system,auth_service
+2025-01-12 20:39:00,user_21,login,1,dev_21,10.0.0.146,United States,success,system,auth_service
+2025-01-11 05:32:00,user_21,failed_login,1,dev_21,10.0.0.228,Australia,failure,system,auth_service
+2025-01-28 21:09:00,user_07,file_access,47,dev_07,10.0.2.95,United Kingdom,success,file,confidential_report
+2025-01-24 17:14:00,user_27,file_access,232,dev_27,10.0.5.100,United Kingdom,success,file,confidential_report
+2025-01-06 13:07:00,user_15,login,1,dev_15,10.0.2.226,United Kingdom,success,system,auth_service
+2025-01-14 17:44:00,user_55,file_access,196,dev_55,10.0.4.100,India,success,file,confidential_report
+2025-01-06 09:11:00,user_49,login,1,dev_49,10.0.2.31,Japan,success,system,auth_service
+2025-01-07 09:39:00,user_21,login,1,dev_21,10.0.5.37,Canada,success,system,auth_service
+2025-01-07 14:30:00,user_30,login,1,dev_30,10.0.4.130,Japan,success,system,auth_service
+2025-01-18 19:31:00,user_57,failed_login,1,dev_57,10.0.5.184,India,failure,system,auth_service
+2025-01-29 18:39:00,user_56,file_access,171,dev_56,10.0.5.11,India,success,file,confidential_report
+2025-01-06 05:24:00,user_48,login,1,dev_48,10.0.3.16,Canada,success,system,auth_service
+2025-01-24 03:13:00,user_28,login,1,dev_28,10.0.5.52,Singapore,success,system,auth_service
+2025-01-24 07:51:00,user_38,file_access,42,dev_38,10.0.4.65,Australia,success,file,confidential_report
+2025-01-10 16:50:00,user_31,file_access,143,dev_31,10.0.4.9,Singapore,success,file,confidential_report
+2025-01-30 04:14:00,user_56,file_access,212,dev_56,10.0.1.95,India,success,file,confidential_report
+2025-01-11 19:17:00,user_48,login,1,dev_48,10.0.0.51,Germany,success,system,auth_service
+2025-01-13 04:49:00,user_33,login,1,dev_33,10.0.2.80,Japan,success,system,auth_service
+2025-01-26 07:12:00,user_01,failed_login,1,dev_01,10.0.4.118,Singapore,failure,system,auth_service
+2025-01-20 18:58:00,user_07,login,1,dev_07,10.0.4.170,Japan,success,system,auth_service
+2025-01-22 23:08:00,user_36,failed_login,1,dev_36,10.0.3.216,Canada,failure,system,auth_service
+2025-01-28 13:39:00,user_23,password_reset,1,dev_23,10.0.5.244,Canada,success,system,auth_service
+2025-01-01 19:27:00,user_58,failed_login,1,dev_58,10.0.3.223,Singapore,failure,system,auth_service
+2025-01-27 08:12:00,user_23,phishing_click,1,dev_23,10.0.5.80,India,success,system,auth_service
+2025-01-22 06:13:00,user_45,login,1,dev_45,10.0.0.182,Canada,success,system,auth_service
+2025-01-27 00:35:00,user_42,login,1,dev_42,10.0.0.235,Canada,success,system,auth_service
+2025-01-11 01:45:00,user_58,file_access,107,dev_58,10.0.4.56,United Kingdom,success,file,confidential_report
+2025-01-30 02:29:00,user_55,login,1,dev_55,10.0.5.179,Canada,success,system,auth_service
+2025-01-08 00:05:00,user_55,login,1,dev_55,10.0.4.55,India,success,system,auth_service
+2025-01-24 17:48:00,user_57,file_access,118,dev_57,10.0.4.23,United States,success,file,confidential_report
+2025-01-22 08:26:00,user_43,failed_login,1,dev_43,10.0.3.205,India,failure,system,auth_service
+2025-01-19 08:33:00,user_47,login,1,dev_47,10.0.2.225,Canada,success,system,auth_service
+2025-01-04 20:11:00,user_18,login,1,dev_18,10.0.4.235,Australia,success,system,auth_service
+2025-01-16 11:29:00,user_01,failed_login,1,dev_01,10.0.2.252,United States,failure,system,auth_service
+2025-01-24 08:50:00,user_29,login,1,dev_29,10.0.1.233,Germany,success,system,auth_service
+2025-01-02 09:52:00,user_02,phishing_click,1,dev_02,10.0.0.242,Canada,success,system,auth_service
+2025-01-17 04:55:00,user_18,login,1,dev_18,10.0.1.12,Japan,success,system,auth_service
+2025-01-28 22:15:00,user_48,file_access,116,dev_48,10.0.2.114,Singapore,success,file,confidential_report
+2025-01-27 14:40:00,user_36,login,1,dev_36,10.0.4.151,Australia,success,system,auth_service
+2025-01-13 00:48:00,user_52,login,1,dev_52,10.0.1.166,Australia,success,system,auth_service
+2025-01-15 20:27:00,user_38,login,1,dev_38,10.0.5.49,India,success,system,auth_service
+2025-01-15 05:21:00,user_28,failed_login,1,dev_28,10.0.3.254,Canada,failure,system,auth_service
+2025-01-13 23:16:00,user_59,login,1,dev_59,10.0.4.72,Australia,success,system,auth_service
+2025-01-06 15:42:00,user_39,login,1,dev_39,10.0.0.95,United Kingdom,success,system,auth_service
+2025-01-30 09:12:00,user_46,login,1,dev_46,10.0.4.132,United States,success,system,auth_service
+2025-01-21 21:14:00,user_38,phishing_click,1,dev_38,10.0.1.46,Canada,success,system,auth_service
+2025-01-04 23:09:00,user_08,login,1,dev_08,10.0.4.43,Canada,success,system,auth_service
+2025-01-03 22:31:00,user_49,login,1,dev_49,10.0.2.168,United Kingdom,success,system,auth_service
+2025-01-14 08:11:00,user_01,password_reset,1,dev_01,10.0.2.185,United States,success,system,auth_service
+2025-01-14 16:00:00,user_03,login,1,dev_03,10.0.4.242,Germany,success,system,auth_service
+2025-01-11 02:19:00,user_04,file_access,20,dev_04,10.0.0.166,United States,success,file,confidential_report
+2025-01-20 00:28:00,user_20,login,1,dev_20,10.0.4.144,India,success,system,auth_service
+2025-01-16 07:12:00,user_37,login,1,dev_37,10.0.4.238,United Kingdom,success,system,auth_service
+2025-01-06 23:33:00,user_19,login,1,dev_19,10.0.5.211,United States,success,system,auth_service
+2025-01-01 16:32:00,user_46,failed_login,1,dev_46,10.0.1.65,Australia,failure,system,auth_service
+2025-01-03 07:45:00,user_19,password_reset,1,dev_19,10.0.3.31,Japan,success,system,auth_service
+2025-01-09 11:28:00,user_20,file_access,167,dev_20,10.0.4.160,Canada,success,file,confidential_report
+2025-01-12 15:19:00,user_12,login,1,dev_12,10.0.1.39,Japan,success,system,auth_service
+2025-01-13 19:55:00,user_15,file_access,128,dev_15,10.0.3.199,Singapore,success,file,confidential_report
+2025-01-21 16:10:00,user_40,failed_login,1,dev_40,10.0.5.101,Japan,failure,system,auth_service
+2025-01-01 09:59:00,user_26,failed_login,1,dev_26,10.0.2.116,United States,failure,system,auth_service
+2025-01-08 02:43:00,user_11,file_access,157,dev_11,10.0.2.232,Germany,success,file,confidential_report
+2025-01-20 15:28:00,user_03,failed_login,1,dev_03,10.0.5.165,Australia,failure,system,auth_service
+2025-01-07 02:32:00,user_39,file_access,97,dev_39,10.0.4.168,Canada,success,file,confidential_report
+2025-01-28 17:58:00,user_34,file_access,84,dev_34,10.0.3.218,United Kingdom,success,file,confidential_report
+2025-01-06 03:18:00,user_36,failed_login,1,dev_36,10.0.0.89,Germany,failure,system,auth_service
+2025-01-26 01:20:00,user_04,password_reset,1,dev_04,10.0.3.21,India,success,system,auth_service
+2025-01-09 22:09:00,user_20,file_access,109,dev_20,10.0.0.182,Germany,success,file,confidential_report
+2025-01-13 03:16:00,user_20,login,1,dev_20,10.0.0.253,Japan,success,system,auth_service
+2025-01-05 23:31:00,user_57,login,1,dev_57,10.0.0.233,United Kingdom,success,system,auth_service
+2025-01-25 14:55:00,user_19,file_access,63,dev_19,10.0.1.55,Japan,success,file,confidential_report
+2025-01-22 21:44:00,user_38,file_access,176,dev_38,10.0.2.22,Japan,success,file,confidential_report
+2025-01-16 05:01:00,user_36,failed_login,1,dev_36,10.0.4.65,Singapore,failure,system,auth_service
+2025-01-24 21:04:00,user_16,login,1,dev_16,10.0.5.173,United Kingdom,success,system,auth_service
+2025-01-25 23:56:00,user_06,password_reset,1,dev_06,10.0.3.144,Japan,success,system,auth_service
+2025-01-11 08:32:00,user_60,login,1,dev_60,10.0.0.114,Australia,success,system,auth_service
+2025-01-17 16:41:00,user_55,login,1,dev_55,10.0.5.2,Germany,success,system,auth_service
+2025-01-15 09:49:00,user_44,file_access,76,dev_44,10.0.5.110,Japan,success,file,confidential_report
+2025-01-17 04:51:00,user_16,file_access,149,dev_16,10.0.1.42,United Kingdom,success,file,confidential_report
+2025-01-29 07:47:00,user_45,file_access,169,dev_45,10.0.3.240,Germany,success,file,confidential_report
+2025-01-16 02:30:00,user_20,login,1,dev_20,10.0.4.73,Japan,success,system,auth_service
+2025-01-09 13:43:00,user_34,login,1,dev_34,10.0.0.15,United Kingdom,success,system,auth_service
+2025-01-28 01:28:00,user_11,failed_login,1,dev_11,10.0.5.166,Canada,failure,system,auth_service
+2025-01-20 11:52:00,user_23,login,1,dev_23,10.0.3.109,Australia,success,system,auth_service
+2025-01-02 02:24:00,user_51,file_access,28,dev_51,10.0.3.69,Australia,success,file,confidential_report
+2025-01-25 09:35:00,user_14,login,1,dev_14,10.0.2.86,United Kingdom,success,system,auth_service
+2025-01-20 04:59:00,user_01,failed_login,1,dev_01,10.0.2.159,India,failure,system,auth_service
+2025-01-24 18:38:00,user_34,login,1,dev_34,10.0.3.229,United Kingdom,success,system,auth_service
+2025-01-19 14:29:00,user_48,login,1,dev_48,10.0.0.1,United States,success,system,auth_service
+2025-01-02 05:20:00,user_47,login,1,dev_47,10.0.0.143,Germany,success,system,auth_service
+2025-01-01 18:45:00,user_59,login,1,dev_59,10.0.1.130,Australia,success,system,auth_service
+2025-01-25 05:59:00,user_26,file_access,62,dev_26,10.0.1.216,Germany,success,file,confidential_report
+2025-01-14 09:12:00,user_04,login,1,dev_04,10.0.5.88,Australia,success,system,auth_service
+2025-01-10 10:23:00,user_52,file_access,16,dev_52,10.0.5.131,Singapore,success,file,confidential_report
+2025-01-08 20:32:00,user_52,file_access,236,dev_52,10.0.3.42,Australia,success,file,confidential_report
+2025-01-12 19:00:00,user_05,file_access,202,dev_05,10.0.5.26,Canada,success,file,confidential_report
+2025-01-14 19:51:00,user_03,file_access,93,dev_03,10.0.4.211,India,success,file,confidential_report
+2025-01-08 22:05:00,user_24,login,1,dev_24,10.0.1.105,Australia,success,system,auth_service
+2025-01-29 18:36:00,user_01,login,1,dev_01,10.0.4.226,Germany,success,system,auth_service
+2025-01-05 19:24:00,user_13,login,1,dev_13,10.0.3.164,Singapore,success,system,auth_service
+2025-01-28 11:07:00,user_59,failed_login,1,dev_59,10.0.1.130,India,failure,system,auth_service
+2025-01-05 17:33:00,user_07,login,1,dev_07,10.0.4.141,United States,success,system,auth_service
+2025-01-27 16:38:00,user_06,failed_login,1,dev_06,10.0.2.69,United States,failure,system,auth_service
+2025-01-06 23:04:00,user_05,login,1,dev_05,10.0.3.166,Canada,success,system,auth_service
+2025-01-06 20:58:00,user_18,login,1,dev_18,10.0.0.71,United Kingdom,success,system,auth_service
+2025-01-10 15:58:00,user_23,file_access,171,dev_23,10.0.4.91,India,success,file,confidential_report
+2025-01-03 06:11:00,user_59,failed_login,1,dev_59,10.0.5.247,Canada,failure,system,auth_service
+2025-01-09 21:03:00,user_27,phishing_click,1,dev_27,10.0.3.219,Singapore,success,system,auth_service
+2025-01-02 09:45:00,user_55,login,1,dev_55,10.0.5.173,Canada,success,system,auth_service
+2025-01-10 04:00:00,user_54,failed_login,1,dev_54,10.0.1.16,United States,failure,system,auth_service
+2025-01-18 02:59:00,user_27,failed_login,1,dev_27,10.0.0.142,Canada,failure,system,auth_service
+2025-01-14 01:05:00,user_56,file_access,93,dev_56,10.0.1.33,Germany,success,file,confidential_report
+2025-01-30 02:15:00,user_12,login,1,dev_12,10.0.4.7,Singapore,success,system,auth_service
+2025-01-03 13:30:00,user_05,login,1,dev_05,10.0.5.35,Australia,success,system,auth_service
+2025-01-09 21:18:00,user_36,failed_login,1,dev_36,10.0.5.4,Canada,failure,system,auth_service
+2025-01-18 19:42:00,user_29,login,1,dev_29,10.0.1.66,Germany,success,system,auth_service
+2025-01-18 16:24:00,user_21,login,1,dev_21,10.0.2.22,Singapore,success,system,auth_service
+2025-01-21 19:15:00,user_56,file_access,194,dev_56,10.0.3.58,India,success,file,confidential_report
+2025-01-22 07:42:00,user_32,login,1,dev_32,10.0.4.227,Germany,success,system,auth_service
+2025-01-02 11:52:00,user_45,file_access,214,dev_45,10.0.0.178,United Kingdom,success,file,confidential_report
+2025-01-10 21:42:00,user_21,login,1,dev_21,10.0.0.9,Germany,success,system,auth_service
+2025-01-02 12:22:00,user_33,failed_login,1,dev_33,10.0.4.154,Canada,failure,system,auth_service
+2025-01-02 20:20:00,user_57,login,1,dev_57,10.0.5.125,United Kingdom,success,system,auth_service
+2025-01-29 07:35:00,user_07,file_access,85,dev_07,10.0.4.131,India,success,file,confidential_report
+2025-01-16 16:40:00,user_50,login,1,dev_50,10.0.1.19,India,success,system,auth_service
+2025-01-04 02:16:00,user_19,login,1,dev_19,10.0.4.135,United Kingdom,success,system,auth_service
+2025-01-02 00:39:00,user_30,failed_login,1,dev_30,10.0.3.114,Japan,failure,system,auth_service
+2025-01-26 17:52:00,user_57,login,1,dev_57,10.0.1.13,United States,success,system,auth_service
+2025-01-02 21:58:00,user_45,login,1,dev_45,10.0.4.213,India,success,system,auth_service
+2025-01-09 13:07:00,user_48,login,1,dev_48,10.0.0.29,Singapore,success,system,auth_service
+2025-01-10 12:58:00,user_29,failed_login,1,dev_29,10.0.3.52,United States,failure,system,auth_service
+2025-01-15 12:47:00,user_24,file_access,122,dev_24,10.0.5.94,India,success,file,confidential_report
+2025-01-28 17:59:00,user_04,password_reset,1,dev_04,10.0.2.205,United Kingdom,success,system,auth_service
+2025-01-01 10:13:00,user_40,file_access,110,dev_40,10.0.3.242,United States,success,file,confidential_report
+2025-01-22 00:28:00,user_41,file_access,138,dev_41,10.0.2.113,India,success,file,confidential_report
+2025-01-26 05:55:00,user_52,login,1,dev_52,10.0.2.150,Germany,success,system,auth_service
+2025-01-06 20:37:00,user_12,login,1,dev_12,10.0.2.154,Japan,success,system,auth_service
+2025-01-23 14:12:00,user_51,login,1,dev_51,10.0.2.242,Germany,success,system,auth_service
+2025-01-06 00:59:00,user_27,file_access,26,dev_27,10.0.3.239,India,success,file,confidential_report
+2025-01-19 18:33:00,user_50,login,1,dev_50,10.0.1.212,United Kingdom,success,system,auth_service
+2025-01-29 16:38:00,user_10,login,1,dev_10,10.0.5.195,Canada,success,system,auth_service
+2025-01-09 18:41:00,user_10,login,1,dev_10,10.0.5.11,United Kingdom,success,system,auth_service
+2025-01-14 18:11:00,user_40,failed_login,1,dev_40,10.0.2.102,Australia,failure,system,auth_service
+2025-01-07 13:48:00,user_32,password_reset,1,dev_32,10.0.0.219,Australia,success,system,auth_service
+2025-01-12 13:06:00,user_57,login,1,dev_57,10.0.2.162,Canada,success,system,auth_service
+2025-01-12 23:30:00,user_45,password_reset,1,dev_45,10.0.1.104,Australia,success,system,auth_service
+2025-01-03 18:29:00,user_54,file_access,127,dev_54,10.0.0.131,Singapore,success,file,confidential_report
+2025-01-19 19:15:00,user_23,file_access,210,dev_23,10.0.0.165,Canada,success,file,confidential_report
+2025-01-10 21:46:00,user_41,password_reset,1,dev_41,10.0.0.161,United States,success,system,auth_service
+2025-01-09 02:34:00,user_37,login,1,dev_37,10.0.1.228,Germany,success,system,auth_service
+2025-01-22 05:40:00,user_11,file_access,22,dev_11,10.0.1.226,United States,success,file,confidential_report
+2025-01-26 16:28:00,user_47,login,1,dev_47,10.0.5.243,Australia,success,system,auth_service
+2025-01-21 22:52:00,user_23,login,1,dev_23,10.0.5.216,United States,success,system,auth_service
+2025-01-04 18:58:00,user_44,file_access,139,dev_44,10.0.5.149,Germany,success,file,confidential_report
+2025-01-11 19:29:00,user_01,login,1,dev_01,10.0.3.50,Japan,success,system,auth_service
+2025-01-25 06:46:00,user_34,login,1,dev_34,10.0.4.91,United States,success,system,auth_service
+2025-01-27 23:27:00,user_47,failed_login,1,dev_47,10.0.0.13,Singapore,failure,system,auth_service
+2025-01-19 00:11:00,user_13,login,1,dev_13,10.0.1.48,Singapore,success,system,auth_service
+2025-01-11 04:06:00,user_33,failed_login,1,dev_33,10.0.2.173,India,failure,system,auth_service
+2025-01-05 10:47:00,user_18,login,1,dev_18,10.0.1.135,United States,success,system,auth_service
+2025-01-24 05:20:00,user_20,login,1,dev_20,10.0.3.14,United Kingdom,success,system,auth_service
+2025-01-24 03:12:00,user_30,login,1,dev_30,10.0.0.252,United States,success,system,auth_service
+2025-01-14 17:53:00,user_60,login,1,dev_60,10.0.0.59,Singapore,success,system,auth_service
+2025-01-17 07:49:00,user_45,file_access,16,dev_45,10.0.3.192,Canada,success,file,confidential_report
+2025-01-26 20:11:00,user_59,login,1,dev_59,10.0.5.168,Australia,success,system,auth_service
+2025-01-15 05:28:00,user_22,login,1,dev_22,10.0.5.14,Singapore,success,system,auth_service
+2025-01-14 08:23:00,user_03,login,1,dev_03,10.0.2.111,Germany,success,system,auth_service
+2025-01-22 23:52:00,user_03,login,1,dev_03,10.0.5.142,Canada,success,system,auth_service
+2025-01-01 02:35:00,user_45,password_reset,1,dev_45,10.0.5.2,United States,success,system,auth_service
+2025-01-05 05:03:00,user_11,password_reset,1,dev_11,10.0.4.120,United Kingdom,success,system,auth_service
+2025-01-01 05:09:00,user_37,file_access,164,dev_37,10.0.3.111,United States,success,file,confidential_report
+2025-01-03 09:35:00,user_39,login,1,dev_39,10.0.5.24,Japan,success,system,auth_service
+2025-01-05 06:37:00,user_13,login,1,dev_13,10.0.4.151,Singapore,success,system,auth_service
+2025-01-02 18:06:00,user_07,login,1,dev_07,10.0.1.242,United States,success,system,auth_service
+2025-01-16 00:01:00,user_31,login,1,dev_31,10.0.1.118,United Kingdom,success,system,auth_service
+2025-01-29 21:42:00,user_50,password_reset,1,dev_50,10.0.4.196,Canada,success,system,auth_service
+2025-01-03 04:09:00,user_51,login,1,dev_51,10.0.0.205,United States,success,system,auth_service
+2025-01-08 02:10:00,user_02,file_access,141,dev_02,10.0.4.146,Canada,success,file,confidential_report
+2025-01-09 09:44:00,user_45,login,1,dev_45,10.0.4.177,Germany,success,system,auth_service
+2025-01-21 04:54:00,user_18,phishing_click,1,dev_18,10.0.1.211,Canada,success,system,auth_service
+2025-01-09 16:14:00,user_22,login,1,dev_22,10.0.5.206,Canada,success,system,auth_service
+2025-01-14 11:26:00,user_21,login,1,dev_21,10.0.3.143,India,success,system,auth_service
+2025-01-24 14:50:00,user_30,login,1,dev_30,10.0.5.28,Japan,success,system,auth_service
+2025-01-08 20:12:00,user_56,password_reset,1,dev_56,10.0.5.98,United Kingdom,success,system,auth_service
+2025-01-10 22:13:00,user_16,login,1,dev_16,10.0.4.107,United States,success,system,auth_service
+2025-01-26 03:41:00,user_28,file_access,110,dev_28,10.0.1.93,Germany,success,file,confidential_report
+2025-01-06 00:56:00,user_01,login,1,dev_01,10.0.2.147,Australia,success,system,auth_service
+2025-01-12 15:25:00,user_14,file_access,221,dev_14,10.0.0.245,Canada,success,file,confidential_report
+2025-01-21 10:38:00,user_28,file_access,180,dev_28,10.0.1.161,Australia,success,file,confidential_report
+2025-01-22 19:34:00,user_19,file_access,166,dev_19,10.0.3.20,Canada,success,file,confidential_report
+2025-01-07 06:45:00,user_42,file_access,122,dev_42,10.0.3.39,Singapore,success,file,confidential_report
+2025-01-13 22:24:00,user_41,failed_login,1,dev_41,10.0.2.210,Canada,failure,system,auth_service
+2025-01-29 14:05:00,user_36,login,1,dev_36,10.0.4.14,Canada,success,system,auth_service
+2025-01-06 20:53:00,user_04,login,1,dev_04,10.0.5.95,United States,success,system,auth_service
+2025-01-10 18:48:00,user_52,login,1,dev_52,10.0.0.173,Singapore,success,system,auth_service
+2025-01-24 04:29:00,user_34,phishing_click,1,dev_34,10.0.5.23,United Kingdom,success,system,auth_service
+2025-01-01 19:44:00,user_29,login,1,dev_29,10.0.2.251,United States,success,system,auth_service
+2025-01-03 05:09:00,user_28,login,1,dev_28,10.0.1.223,Canada,success,system,auth_service
+2025-01-13 17:56:00,user_42,login,1,dev_42,10.0.0.138,Germany,success,system,auth_service
+2025-01-19 03:32:00,user_48,login,1,dev_48,10.0.5.216,United Kingdom,success,system,auth_service
+2025-01-08 09:31:00,user_29,login,1,dev_29,10.0.2.184,United Kingdom,success,system,auth_service
+2025-01-11 03:50:00,user_47,login,1,dev_47,10.0.5.76,Germany,success,system,auth_service
+2025-01-09 12:56:00,user_37,password_reset,1,dev_37,10.0.0.125,Germany,success,system,auth_service
+2025-01-26 15:05:00,user_53,login,1,dev_53,10.0.3.153,Australia,success,system,auth_service
+2025-01-13 08:12:00,user_30,file_access,30,dev_30,10.0.2.165,United Kingdom,success,file,confidential_report
+2025-01-16 02:50:00,user_10,failed_login,1,dev_10,10.0.2.199,Australia,failure,system,auth_service
+2025-01-01 08:46:00,user_26,login,1,dev_26,10.0.5.69,Canada,success,system,auth_service
+2025-01-01 06:07:00,user_14,login,1,dev_14,10.0.1.75,India,success,system,auth_service
+2025-01-08 12:10:00,user_54,login,1,dev_54,10.0.2.230,Germany,success,system,auth_service
+2025-01-14 06:14:00,user_35,file_access,245,dev_35,10.0.3.243,United Kingdom,success,file,confidential_report
+2025-01-28 09:35:00,user_42,failed_login,1,dev_42,10.0.4.140,India,failure,system,auth_service
+2025-01-04 16:07:00,user_08,login,1,dev_08,10.0.1.74,United States,success,system,auth_service
+2025-01-18 17:11:00,user_47,login,1,dev_47,10.0.4.191,India,success,system,auth_service
+2025-01-19 07:26:00,user_52,login,1,dev_52,10.0.5.63,Singapore,success,system,auth_service
+2025-01-15 15:43:00,user_22,login,1,dev_22,10.0.5.75,Singapore,success,system,auth_service
+2025-01-06 17:43:00,user_34,failed_login,1,dev_34,10.0.2.254,Japan,failure,system,auth_service
+2025-01-11 11:15:00,user_14,login,1,dev_14,10.0.5.193,Canada,success,system,auth_service
+2025-01-21 08:21:00,user_04,login,1,dev_04,10.0.2.102,Japan,success,system,auth_service
+2025-01-26 22:02:00,user_51,file_access,31,dev_51,10.0.5.35,Canada,success,file,confidential_report
+2025-01-19 07:04:00,user_33,failed_login,1,dev_33,10.0.2.48,Japan,failure,system,auth_service
+2025-01-24 22:30:00,user_54,failed_login,1,dev_54,10.0.0.226,United Kingdom,failure,system,auth_service
+2025-01-18 23:37:00,user_54,file_access,23,dev_54,10.0.4.106,Japan,success,file,confidential_report
+2025-01-04 04:50:00,user_36,file_access,87,dev_36,10.0.4.36,United States,success,file,confidential_report
+2025-01-13 21:04:00,user_37,password_reset,1,dev_37,10.0.0.153,India,success,system,auth_service
+2025-01-24 00:24:00,user_15,login,1,dev_15,10.0.2.179,Australia,success,system,auth_service
+2025-01-30 15:48:00,user_15,phishing_click,1,dev_15,10.0.1.67,United States,success,system,auth_service
+2025-01-22 20:42:00,user_52,file_access,120,dev_52,10.0.4.13,United Kingdom,success,file,confidential_report
+2025-01-30 11:24:00,user_01,login,1,dev_01,10.0.4.229,Singapore,success,system,auth_service
+2025-01-04 17:28:00,user_52,login,1,dev_52,10.0.4.162,Australia,success,system,auth_service
+2025-01-17 10:12:00,user_37,login,1,dev_37,10.0.1.83,Germany,success,system,auth_service
+2025-01-01 18:16:00,user_59,login,1,dev_59,10.0.4.41,Japan,success,system,auth_service
+2025-01-12 13:21:00,user_12,password_reset,1,dev_12,10.0.3.128,Singapore,success,system,auth_service
+2025-01-19 13:50:00,user_12,file_access,10,dev_12,10.0.4.52,Germany,success,file,confidential_report
+2025-01-05 14:35:00,user_44,login,1,dev_44,10.0.4.52,Japan,success,system,auth_service
+2025-01-27 17:56:00,user_27,login,1,dev_27,10.0.0.243,Germany,success,system,auth_service
+2025-01-05 23:54:00,user_17,login,1,dev_17,10.0.1.196,Singapore,success,system,auth_service
+2025-01-18 17:12:00,user_60,file_access,189,dev_60,10.0.0.57,Canada,success,file,confidential_report
+2025-01-15 13:42:00,user_27,login,1,dev_27,10.0.0.161,Australia,success,system,auth_service
+2025-01-06 05:01:00,user_28,file_access,8,dev_28,10.0.2.92,India,success,file,confidential_report
+2025-01-14 19:35:00,user_21,file_access,83,dev_21,10.0.3.62,United Kingdom,success,file,confidential_report
+2025-01-24 10:40:00,user_49,login,1,dev_49,10.0.0.110,Australia,success,system,auth_service
+2025-01-25 16:25:00,user_39,file_access,143,dev_39,10.0.4.47,United States,success,file,confidential_report
+2025-01-03 11:22:00,user_56,failed_login,1,dev_56,10.0.5.229,Australia,failure,system,auth_service
+2025-01-28 13:25:00,user_59,failed_login,1,dev_59,10.0.5.234,Singapore,failure,system,auth_service
+2025-01-18 21:00:00,user_36,login,1,dev_36,10.0.1.133,Japan,success,system,auth_service
+2025-01-27 20:43:00,user_12,login,1,dev_12,10.0.1.84,Germany,success,system,auth_service
+2025-01-29 15:31:00,user_22,file_access,140,dev_22,10.0.3.31,Germany,success,file,confidential_report
+2025-01-06 23:03:00,user_51,failed_login,1,dev_51,10.0.2.157,Singapore,failure,system,auth_service
+2025-01-12 13:36:00,user_33,login,1,dev_33,10.0.3.92,Singapore,success,system,auth_service
+2025-01-12 17:54:00,user_02,file_access,83,dev_02,10.0.5.219,Singapore,success,file,confidential_report
+2025-01-07 14:27:00,user_05,file_access,96,dev_05,10.0.4.87,Japan,success,file,confidential_report
+2025-01-21 07:00:00,user_16,file_access,213,dev_16,10.0.4.188,United States,success,file,confidential_report
+2025-01-01 08:23:00,user_22,failed_login,1,dev_22,10.0.2.31,India,failure,system,auth_service
+2025-01-08 07:03:00,user_09,login,1,dev_09,10.0.1.226,Canada,success,system,auth_service
+2025-01-14 21:01:00,user_13,password_reset,1,dev_13,10.0.1.148,Canada,success,system,auth_service
+2025-01-16 06:57:00,user_40,login,1,dev_40,10.0.5.126,Singapore,success,system,auth_service
+2025-01-30 13:03:00,user_17,password_reset,1,dev_17,10.0.5.249,India,success,system,auth_service
+2025-01-11 15:00:00,user_18,login,1,dev_18,10.0.1.42,Germany,success,system,auth_service
+2025-01-21 15:50:00,user_19,login,1,dev_19,10.0.0.107,United States,success,system,auth_service
+2025-01-07 03:48:00,user_25,failed_login,1,dev_25,10.0.4.160,India,failure,system,auth_service
+2025-01-22 09:53:00,user_35,login,1,dev_35,10.0.2.7,Singapore,success,system,auth_service
+2025-01-20 18:47:00,user_51,failed_login,1,dev_51,10.0.1.175,United States,failure,system,auth_service
+2025-01-07 20:40:00,user_08,login,1,dev_08,10.0.1.141,Germany,success,system,auth_service
+2025-01-10 00:04:00,user_18,file_access,58,dev_18,10.0.2.40,Japan,success,file,confidential_report
+2025-01-17 20:49:00,user_12,login,1,dev_12,10.0.2.136,India,success,system,auth_service
+2025-01-20 09:14:00,user_18,login,1,dev_18,10.0.3.25,India,success,system,auth_service
+2025-01-22 00:28:00,user_25,password_reset,1,dev_25,10.0.5.120,India,success,system,auth_service
+2025-01-08 21:13:00,user_03,login,1,dev_03,10.0.3.254,Canada,success,system,auth_service
+2025-01-23 13:59:00,user_47,file_access,140,dev_47,10.0.4.148,United States,success,file,confidential_report
+2025-01-29 20:27:00,user_58,password_reset,1,dev_58,10.0.5.153,India,success,system,auth_service
+2025-01-03 11:27:00,user_32,login,1,dev_32,10.0.5.8,United States,success,system,auth_service
+2025-01-17 12:11:00,user_26,login,1,dev_26,10.0.1.83,Germany,success,system,auth_service
+2025-01-29 19:17:00,user_06,login,1,dev_06,10.0.1.112,Australia,success,system,auth_service
+2025-01-17 12:38:00,user_16,file_access,196,dev_16,10.0.0.25,United States,success,file,confidential_report
+2025-01-19 08:11:00,user_46,failed_login,1,dev_46,10.0.2.17,India,failure,system,auth_service
+2025-01-12 01:48:00,user_19,login,1,dev_19,10.0.5.110,Japan,success,system,auth_service
+2025-01-28 17:19:00,user_03,failed_login,1,dev_03,10.0.4.51,United States,failure,system,auth_service
+2025-01-23 08:05:00,user_54,login,1,dev_54,10.0.0.68,United Kingdom,success,system,auth_service
+2025-01-09 02:06:00,user_20,login,1,dev_20,10.0.3.163,Australia,success,system,auth_service
+2025-01-03 11:03:00,user_34,login,1,dev_34,10.0.0.249,India,success,system,auth_service
+2025-01-07 10:04:00,user_60,login,1,dev_60,10.0.5.239,United States,success,system,auth_service
+2025-01-22 18:11:00,user_18,login,1,dev_18,10.0.2.124,India,success,system,auth_service
+2025-01-04 17:52:00,user_21,login,1,dev_21,10.0.2.152,Singapore,success,system,auth_service
+2025-01-29 02:57:00,user_39,login,1,dev_39,10.0.2.50,Australia,success,system,auth_service
+2025-01-10 20:15:00,user_37,file_access,198,dev_37,10.0.1.25,United States,success,file,confidential_report
+2025-01-01 07:44:00,user_13,login,1,dev_13,10.0.1.153,Australia,success,system,auth_service
+2025-01-05 06:28:00,user_04,login,1,dev_04,10.0.4.192,Canada,success,system,auth_service
+2025-01-04 14:17:00,user_22,login,1,dev_22,10.0.5.79,Japan,success,system,auth_service
+2025-01-04 06:01:00,user_25,login,1,dev_25,10.0.3.37,Australia,success,system,auth_service
+2025-01-09 15:48:00,user_08,login,1,dev_08,10.0.3.10,Australia,success,system,auth_service
+2025-01-05 22:07:00,user_48,login,1,dev_48,10.0.5.206,Germany,success,system,auth_service
+2025-01-30 01:42:00,user_24,login,1,dev_24,10.0.3.138,Germany,success,system,auth_service
+2025-01-01 11:37:00,user_08,failed_login,1,dev_08,10.0.2.242,India,failure,system,auth_service
+2025-01-01 17:08:00,user_32,login,1,dev_32,10.0.3.199,Germany,success,system,auth_service
+2025-01-16 23:47:00,user_15,login,1,dev_15,10.0.1.41,United States,success,system,auth_service
+2025-01-19 05:28:00,user_55,failed_login,1,dev_55,10.0.4.227,Australia,failure,system,auth_service
+2025-01-14 15:42:00,user_39,login,1,dev_39,10.0.4.211,United Kingdom,success,system,auth_service
+2025-01-12 11:39:00,user_40,password_reset,1,dev_40,10.0.5.60,United Kingdom,success,system,auth_service
+2025-01-10 20:53:00,user_49,login,1,dev_49,10.0.3.154,United States,success,system,auth_service
+2025-01-18 17:38:00,user_53,password_reset,1,dev_53,10.0.0.232,Germany,success,system,auth_service
+2025-01-22 07:28:00,user_36,login,1,dev_36,10.0.1.104,United States,success,system,auth_service
+2025-01-16 05:13:00,user_55,password_reset,1,dev_55,10.0.2.173,Australia,success,system,auth_service
+2025-01-22 02:49:00,user_30,login,1,dev_30,10.0.2.138,Canada,success,system,auth_service
+2025-01-28 09:50:00,user_01,login,1,dev_01,10.0.3.158,Japan,success,system,auth_service
+2025-01-11 14:03:00,user_31,login,1,dev_31,10.0.0.3,India,success,system,auth_service
+2025-01-19 05:47:00,user_05,file_access,179,dev_05,10.0.5.66,United States,success,file,confidential_report
+2025-01-15 09:52:00,user_13,file_access,214,dev_13,10.0.2.79,Canada,success,file,confidential_report
+2025-01-02 21:12:00,user_29,file_access,137,dev_29,10.0.1.211,Canada,success,file,confidential_report
+2025-01-26 21:47:00,user_14,login,1,dev_14,10.0.4.149,Australia,success,system,auth_service
+2025-01-15 09:46:00,user_11,login,1,dev_11,10.0.1.106,Singapore,success,system,auth_service
+2025-01-02 00:08:00,user_39,file_access,131,dev_39,10.0.1.105,Singapore,success,file,confidential_report
+2025-01-20 00:06:00,user_20,failed_login,1,dev_20,10.0.1.77,Canada,failure,system,auth_service
+2025-01-08 21:27:00,user_33,file_access,129,dev_33,10.0.3.210,Germany,success,file,confidential_report
+2025-01-29 06:42:00,user_14,login,1,dev_14,10.0.5.251,United Kingdom,success,system,auth_service
+2025-01-08 09:46:00,user_11,login,1,dev_11,10.0.0.3,India,success,system,auth_service
+2025-01-05 13:12:00,user_48,file_access,191,dev_48,10.0.1.119,Canada,success,file,confidential_report
+2025-01-08 09:29:00,user_04,login,1,dev_04,10.0.0.159,Singapore,success,system,auth_service
+2025-01-26 04:02:00,user_28,failed_login,1,dev_28,10.0.2.209,United Kingdom,failure,system,auth_service
+2025-01-12 16:14:00,user_04,phishing_click,1,dev_04,10.0.0.6,Australia,success,system,auth_service
+2025-01-11 21:31:00,user_13,login,1,dev_13,10.0.4.73,United States,success,system,auth_service
+2025-01-28 16:02:00,user_30,failed_login,1,dev_30,10.0.5.128,India,failure,system,auth_service
+2025-01-17 02:15:00,user_49,login,1,dev_49,10.0.0.133,Japan,success,system,auth_service
+2025-01-20 10:49:00,user_17,login,1,dev_17,10.0.5.208,Germany,success,system,auth_service
+2025-01-30 16:14:00,user_13,file_access,209,dev_13,10.0.5.167,United Kingdom,success,file,confidential_report
+2025-01-21 14:45:00,user_32,login,1,dev_32,10.0.2.73,India,success,system,auth_service
+2025-01-22 10:42:00,user_57,login,1,dev_57,10.0.4.168,Australia,success,system,auth_service
+2025-01-03 07:21:00,user_47,failed_login,1,dev_47,10.0.2.139,United Kingdom,failure,system,auth_service
+2025-01-17 18:58:00,user_58,file_access,31,dev_58,10.0.5.48,Australia,success,file,confidential_report
+2025-01-16 13:43:00,user_58,file_access,76,dev_58,10.0.2.65,India,success,file,confidential_report
+2025-01-30 14:42:00,user_43,file_access,106,dev_43,10.0.2.96,United States,success,file,confidential_report
+2025-01-06 06:41:00,user_27,login,1,dev_27,10.0.3.213,Japan,success,system,auth_service
+2025-01-08 12:18:00,user_28,login,1,dev_28,10.0.0.253,Germany,success,system,auth_service
+2025-01-26 01:06:00,user_28,login,1,dev_28,10.0.1.87,United States,success,system,auth_service
+2025-01-27 03:02:00,user_29,login,1,dev_29,10.0.5.82,United Kingdom,success,system,auth_service
+2025-01-23 23:45:00,user_55,login,1,dev_55,10.0.3.41,India,success,system,auth_service
+2025-01-01 03:17:00,user_38,login,1,dev_38,10.0.0.67,United States,success,system,auth_service
+2025-01-21 20:19:00,user_17,login,1,dev_17,10.0.2.93,Singapore,success,system,auth_service
+2025-01-22 10:50:00,user_15,login,1,dev_15,10.0.5.235,Japan,success,system,auth_service
+2025-01-11 21:20:00,user_28,login,1,dev_28,10.0.0.230,United States,success,system,auth_service
+2025-01-04 21:07:00,user_34,file_access,93,dev_34,10.0.4.210,Japan,success,file,confidential_report
+2025-01-13 15:45:00,user_58,login,1,dev_58,10.0.2.134,India,success,system,auth_service
+2025-01-06 06:31:00,user_15,file_access,225,dev_15,10.0.1.23,Australia,success,file,confidential_report
+2025-01-20 19:51:00,user_49,failed_login,1,dev_49,10.0.3.11,United Kingdom,failure,system,auth_service
+2025-01-07 19:05:00,user_16,file_access,152,dev_16,10.0.3.141,Canada,success,file,confidential_report
+2025-01-19 01:41:00,user_35,file_access,233,dev_35,10.0.2.79,Japan,success,file,confidential_report
+2025-01-19 20:04:00,user_32,login,1,dev_32,10.0.3.103,Australia,success,system,auth_service
+2025-01-22 21:56:00,user_59,file_access,122,dev_59,10.0.5.16,Germany,success,file,confidential_report
+2025-01-07 13:26:00,user_38,login,1,dev_38,10.0.3.76,United Kingdom,success,system,auth_service
+2025-01-03 00:13:00,user_47,file_access,189,dev_47,10.0.3.165,Canada,success,file,confidential_report
+2025-01-30 02:36:00,user_35,login,1,dev_35,10.0.0.2,Japan,success,system,auth_service
+2025-01-27 03:51:00,user_58,login,1,dev_58,10.0.4.217,Australia,success,system,auth_service
+2025-01-19 19:02:00,user_21,file_access,44,dev_21,10.0.3.167,Japan,success,file,confidential_report
+2025-01-20 14:36:00,user_20,login,1,dev_20,10.0.4.42,India,success,system,auth_service
+2025-01-12 23:30:00,user_22,file_access,157,dev_22,10.0.4.103,Japan,success,file,confidential_report
+2025-01-06 07:20:00,user_55,login,1,dev_55,10.0.0.157,United Kingdom,success,system,auth_service
+2025-01-09 16:13:00,user_14,file_access,93,dev_14,10.0.3.157,United Kingdom,success,file,confidential_report
+2025-01-30 10:25:00,user_38,file_access,204,dev_38,10.0.4.142,United States,success,file,confidential_report
+2025-01-01 11:59:00,user_14,password_reset,1,dev_14,10.0.3.250,India,success,system,auth_service
+2025-01-12 21:41:00,user_23,login,1,dev_23,10.0.1.5,Japan,success,system,auth_service
+2025-01-19 02:33:00,user_48,file_access,140,dev_48,10.0.1.23,Australia,success,file,confidential_report
+2025-01-30 06:30:00,user_56,file_access,89,dev_56,10.0.5.219,India,success,file,confidential_report
+2025-01-23 22:00:00,user_27,login,1,dev_27,10.0.0.191,Australia,success,system,auth_service
+2025-01-11 15:38:00,user_45,login,1,dev_45,10.0.5.133,Japan,success,system,auth_service
+2025-01-21 06:39:00,user_13,file_access,17,dev_13,10.0.1.175,Germany,success,file,confidential_report
+2025-01-14 15:41:00,user_14,login,1,dev_14,10.0.0.216,Japan,success,system,auth_service
+2025-01-11 08:02:00,user_14,file_access,236,dev_14,10.0.3.82,Germany,success,file,confidential_report
+2025-01-05 06:15:00,user_33,failed_login,1,dev_33,10.0.3.136,Japan,failure,system,auth_service
+2025-01-24 14:30:00,user_56,file_access,199,dev_56,10.0.2.249,United States,success,file,confidential_report
+2025-01-30 16:48:00,user_03,login,1,dev_03,10.0.5.65,Australia,success,system,auth_service
+2025-01-04 09:20:00,user_52,file_access,100,dev_52,10.0.5.185,United States,success,file,confidential_report
+2025-01-27 09:21:00,user_08,login,1,dev_08,10.0.1.131,Japan,success,system,auth_service
+2025-01-09 19:03:00,user_54,file_access,176,dev_54,10.0.4.212,Australia,success,file,confidential_report
+2025-01-13 10:16:00,user_06,login,1,dev_06,10.0.5.27,United Kingdom,success,system,auth_service
+2025-01-06 01:20:00,user_11,login,1,dev_11,10.0.1.254,Japan,success,system,auth_service
+2025-01-10 01:02:00,user_51,file_access,157,dev_51,10.0.2.180,Germany,success,file,confidential_report
+2025-01-15 04:26:00,user_20,login,1,dev_20,10.0.5.152,United States,success,system,auth_service
+2025-01-26 11:53:00,user_05,failed_login,1,dev_05,10.0.1.119,Singapore,failure,system,auth_service
+2025-01-02 08:14:00,user_40,failed_login,1,dev_40,10.0.5.149,United Kingdom,failure,system,auth_service
+2025-01-11 02:39:00,user_37,login,1,dev_37,10.0.0.241,Singapore,success,system,auth_service
+2025-01-28 06:37:00,user_11,login,1,dev_11,10.0.0.162,Singapore,success,system,auth_service
+2025-01-08 07:51:00,user_25,login,1,dev_25,10.0.5.63,United States,success,system,auth_service
+2025-01-04 23:10:00,user_20,login,1,dev_20,10.0.0.105,United Kingdom,success,system,auth_service
+2025-01-15 23:48:00,user_03,login,1,dev_03,10.0.5.46,United States,success,system,auth_service
+2025-01-08 03:56:00,user_59,login,1,dev_59,10.0.2.96,Canada,success,system,auth_service
+2025-01-23 05:21:00,user_34,login,1,dev_34,10.0.5.138,India,success,system,auth_service
+2025-01-05 04:24:00,user_60,file_access,105,dev_60,10.0.2.221,United States,success,file,confidential_report
+2025-01-19 10:08:00,user_23,file_access,191,dev_23,10.0.2.173,United Kingdom,success,file,confidential_report
+2025-01-26 15:47:00,user_36,login,1,dev_36,10.0.4.214,Canada,success,system,auth_service
+2025-01-24 09:26:00,user_22,login,1,dev_22,10.0.5.52,India,success,system,auth_service
+2025-01-14 09:45:00,user_45,password_reset,1,dev_45,10.0.1.94,United States,success,system,auth_service
+2025-01-22 13:15:00,user_18,login,1,dev_18,10.0.0.173,United Kingdom,success,system,auth_service
+2025-01-09 19:11:00,user_03,failed_login,1,dev_03,10.0.0.66,United States,failure,system,auth_service
+2025-01-22 23:58:00,user_11,login,1,dev_11,10.0.4.188,Germany,success,system,auth_service
+2025-01-10 12:48:00,user_41,file_access,154,dev_41,10.0.1.214,Japan,success,file,confidential_report
+2025-01-17 10:19:00,user_35,login,1,dev_35,10.0.5.58,United States,success,system,auth_service
+2025-01-19 04:32:00,user_05,file_access,217,dev_05,10.0.4.105,Japan,success,file,confidential_report
+2025-01-27 15:10:00,user_17,password_reset,1,dev_17,10.0.2.24,Canada,success,system,auth_service
+2025-01-01 04:24:00,user_03,login,1,dev_03,10.0.1.45,Singapore,success,system,auth_service
+2025-01-08 18:46:00,user_40,login,1,dev_40,10.0.4.134,India,success,system,auth_service
+2025-01-22 14:59:00,user_14,login,1,dev_14,10.0.0.26,Australia,success,system,auth_service
+2025-01-02 09:37:00,user_45,login,1,dev_45,10.0.5.224,Singapore,success,system,auth_service
+2025-01-10 19:40:00,user_59,failed_login,1,dev_59,10.0.3.229,Germany,failure,system,auth_service
+2025-01-01 06:08:00,user_06,failed_login,1,dev_06,10.0.5.245,Japan,failure,system,auth_service
+2025-01-01 03:16:00,user_45,file_access,79,dev_45,10.0.0.49,Singapore,success,file,confidential_report
+2025-01-17 19:20:00,user_05,file_access,84,dev_05,10.0.5.251,Japan,success,file,confidential_report
+2025-01-22 13:15:00,user_03,failed_login,1,dev_03,10.0.5.161,Germany,failure,system,auth_service
+2025-01-18 11:23:00,user_55,file_access,100,dev_55,10.0.3.72,Canada,success,file,confidential_report
+2025-01-25 06:19:00,user_18,phishing_click,1,dev_18,10.0.1.140,Australia,success,system,auth_service
+2025-01-23 22:42:00,user_31,file_access,70,dev_31,10.0.1.19,Japan,success,file,confidential_report
+2025-01-09 19:05:00,user_09,login,1,dev_09,10.0.4.156,Australia,success,system,auth_service
+2025-01-17 15:45:00,user_17,login,1,dev_17,10.0.2.216,Australia,success,system,auth_service
+2025-01-23 21:14:00,user_46,file_access,211,dev_46,10.0.3.116,Canada,success,file,confidential_report
+2025-01-11 12:03:00,user_45,login,1,dev_45,10.0.0.205,Germany,success,system,auth_service
+2025-01-17 09:43:00,user_37,login,1,dev_37,10.0.4.95,United States,success,system,auth_service
+2025-01-08 15:46:00,user_26,file_access,178,dev_26,10.0.0.220,United States,success,file,confidential_report
+2025-01-13 16:55:00,user_58,login,1,dev_58,10.0.2.217,Singapore,success,system,auth_service
+2025-01-01 03:25:00,user_09,login,1,dev_09,10.0.5.243,Japan,success,system,auth_service
