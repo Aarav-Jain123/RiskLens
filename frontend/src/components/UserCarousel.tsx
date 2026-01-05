@@ -77,7 +77,7 @@ export function UserCarousel({ data, onSelectUser }: UserCarouselProps) {
                         {getInitials(user.user_id)}
                       </span>
                     </div>
-                    {user.threat_events > 10 && (
+                    {user.threat_events > 20 && (
                       <span className="px-2 py-1 bg-red-100 text-red-700 rounded text-xs">
                         Alert
                       </span>

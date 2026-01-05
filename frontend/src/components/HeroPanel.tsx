@@ -39,8 +39,8 @@ export function HeroPanel({ data }: HeroPanelProps) {
       <div className="text-center">
         <h1 className="text-gray-900 mb-2">Risklens Dashboard with Risk and Compliance</h1>
         <p className="text-gray-600 text-sm">
-          Model Performance: {data?.model_performance.accuracy || 'N/A'} - Status: {data?.model_performance.status || 'N/A'}
-        </p>
+          Model Performance: {data?.model_performance.accuracy || 'N/A'} - Status: {data?.model_performance.status || 'N/A'} <b>Model Type: Random Forest Classifier
+        </b></p>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
