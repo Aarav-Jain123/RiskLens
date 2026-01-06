@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Zip backend source
+      - name: Zip backend source (ZIP ROOT = APP ROOT)
         run: |
           cd backend
           zip -r ../backend.zip .
@@ -37,33 +37,12 @@ jobs:
         with:
           name: backend-zip
 
-      - name: Unzip artifact
-        run: |
-          unzip backend.zip -d backend
+      # ❌ NO UNZIP STEP
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        working-directory: backend
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Collect static files
-        working-directory: backend
-        env:
-          DJANGO_SETTINGS_MODULE: djangoProject.settings
-        run: |
-          python manage.py collectstatic --noinput
-
-      - name: Deploy to Azure Web App
+      - name: Deploy ZIP to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
           app-name: risklensbackend
           slot-name: Production
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB65039BFD8B4486AFBE39FD2174760C }}
-          package: backend
-
+          package: backend.zip   # ✅ THIS IS THE KEY
