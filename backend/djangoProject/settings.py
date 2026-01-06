@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-     os.environ.get("TRUST_URL_LOCAL, ""),
+     "http://localhost:3000",,
 ]
 
 # Application definition
