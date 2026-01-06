@@ -16,24 +16,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      # Install deps ONLY to validate requirements.txt
-      - name: Install dependencies
-        working-directory: backend
+      - name: Zip backend source
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          cd backend
+          zip -r ../backend.zip .
 
-      # Package source only (no venv nonsense)
-      - name: Upload artifact
+      - name: Upload zipped artifact
         uses: actions/upload-artifact@v4
         with:
-          name: python-app
-          path: backend/
+          name: backend-zip
+          path: backend.zip
 
   deploy:
     runs-on: ubuntu-latest
@@ -43,7 +35,11 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: python-app
+          name: backend-zip
+
+      - name: Unzip artifact
+        run: |
+          unzip backend.zip -d backend
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
@@ -51,3 +47,4 @@ jobs:
           app-name: risklensbackend
           slot-name: Production
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB65039BFD8B4486AFBE39FD2174760C }}
+          package: backend
