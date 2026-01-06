@@ -10,49 +10,44 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: read # This is required for actions/checkout
+      contents: read
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python version
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Create and start virtual environment and install dependencies
+      # Install deps ONLY to validate requirements.txt
+      - name: Install dependencies
         working-directory: backend
         run: |
-          python -m venv antenv
-          source antenv/bin/activate
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Upload artifact for deployment jobs
+      # Package source only (no venv nonsense)
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: python-app
-          # Package the backend folder but exclude the local venv
-          path: |
-            backend/**
-            !backend/antenv/**
-  
+          path: backend/
+
   deploy:
     runs-on: ubuntu-latest
     needs: build
 
     steps:
-      - name: Download artifact from build job
+      - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: python-app
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
-        id: deploy-to-webapp
         with:
-          app-name: 'risklensbackend'
-          slot-name: 'Production'
+          app-name: risklensbackend
+          slot-name: Production
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB65039BFD8B4486AFBE39FD2174760C }}
-
