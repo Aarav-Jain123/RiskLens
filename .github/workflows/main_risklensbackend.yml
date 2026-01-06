@@ -55,7 +55,7 @@ jobs:
       - name: Collect static files
         working-directory: backend
         env:
-          DJANGO_SETTINGS_MODULE: djangoProject.settings
+          DJANGO_SETTINGS_MODULE: djangoProject.deployment
         run: |
           python manage.py collectstatic --noinput
 
@@ -66,3 +66,4 @@ jobs:
           slot-name: Production
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB65039BFD8B4486AFBE39FD2174760C }}
           package: backend
+
