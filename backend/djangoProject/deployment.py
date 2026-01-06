@@ -3,14 +3,11 @@ from .settings import *
 from .settings import BASE_DIR
 
 
-WEBSITE_HOSTNAME = os.environ.get("WEBSITE_HOSTNAME")
-ALLOWED_HOSTS = ['WEBSITE_HOSTNAME', 'localhost']
-CSRF_TRUSTED_ORIGINS = (
-    [f"https://{WEBSITE_HOSTNAME}"] if WEBSITE_HOSTNAME else []
-)
+ALLOWED_HOSTS = [os.environ['WEBSITE_HOSTNAME'], 'localhost']
+CSRF_TRUSTED_ORIGINS = [f'https://{os.environ["WEBSITE_HOSTNAME"]}']
 
 CORS_ALLOWED_ORIGINS = [
-    os.environ.get("TRUST_URL_PROD", ""),
+    "https://calm-field-0579dd400.6.azurestaticapps.net/",
 ]
 DEBUG = False
 
@@ -60,6 +57,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
 SECRET_KEY = os.environ['MY_SECRET_KEY']
+
 
 
 
