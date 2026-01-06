@@ -29,11 +29,11 @@ jobs:
           python3 -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Collect static files
-        working-directory: backend
-        run: |
-          source antenv/bin/activate
-          python3 -m manage collectstatic --noinput
+      # - name: Collect static files
+      #   working-directory: backend
+      #   run: |
+      #     source antenv/bin/activate
+      #     python3 -m manage collectstatic --noinput
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
@@ -61,6 +61,7 @@ jobs:
           app-name: 'risklensbackend'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB65039BFD8B4486AFBE39FD2174760C }}
+
 
 
 
