@@ -55,7 +55,7 @@ jobs:
       - name: Collect static files
         working-directory: backend
         env:
-          DJANGO_SETTINGS_MODULE: backend.settings
+          DJANGO_SETTINGS_MODULE: djangoProject.settings
         run: |
           python manage.py collectstatic --noinput
 
