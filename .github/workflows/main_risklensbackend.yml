@@ -63,8 +63,9 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: risklensbackend
-          slot-name: Production
+          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB65039BFD8B4486AFBE39FD2174760C }}
           package: backend
+
 
 
