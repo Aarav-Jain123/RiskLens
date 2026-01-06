@@ -24,15 +24,13 @@ MIDDLEWARE = [
 # ]
 
 STORAGES = {
-    {
-        'default': {
-            'BACKEND': 'django.core.files.storage.FileSystemStorage',     
-        },
-        'staticfiles': {
+'default': {
+    'BACKEND': 'django.core.files.storage.FileSystemStorage',     
+},
+'staticfiles': {
             # 'BACKEND': 'whitenoise.storage.CompressedManifestStaticFilesStorage',
-            'BACKEND': 'whitenoise.storage.CompressedStaticFilesStorage',
-        },
-    }
+    'BACKEND': 'whitenoise.storage.CompressedStaticFilesStorage',
+},
 }
 
 # STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' if using django older than 4.2
@@ -55,3 +53,4 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
 SECRET_KEY = os.environ['MY_SECRET_KEY']
+
