@@ -23,5 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('mainapp.urls')),
     path('model_page/', include('mainapp.urls')),
+    path('clean_dataset_page/', include('mainapp.urls')),
+    path('dirty_dataset_page/', include('mainapp.urls')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
