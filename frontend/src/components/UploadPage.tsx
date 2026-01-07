@@ -71,7 +71,7 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
 
       // Send POST request to backend
       // Replace 'YOUR_BACKEND_URL' with your actual backend endpoint
-      const response = await fetch('YOUR_BACKEND_URL/api/upload', {
+      const response = await fetch('https://risklensbackend-g8apbyf5dgceefbx.centralindia-01.azurewebsites.net/model_page/', {
         method: 'POST',
         body: formData,
       });
