@@ -16,20 +16,6 @@ export default function CleanDataSet() {
   const inputRef = useRef(null);
 
   const fetchCleanData = async () => {
-    setError(null);
-    setUploading(true);
-
-    const isDev = import.meta.env.MODE === 'development';
-    const baseURL = isDev
-      ? import.meta.env.VITE_API_BASE_URL_LOCAL
-      : import.meta.env.VITE_API_BASE_URL_PROD;
-
-    if (!baseURL) {
-      setError('API base URL is not configured');
-      setUploading(false);
-      return;
-    }
-
     try {
       const response = await fetch(`https://risklensbackend-g8apbyf5dgceefbx.centralindia-01.azurewebsites.net/clean_dataset_page/`, {
         method: 'GET',
@@ -54,10 +40,6 @@ export default function CleanDataSet() {
       setUploading(false);
     }
   };
-
-  const handleNewReport = () => { /* Implement */ };
-  const handleSelectUser = (userId) => setSelectedUserId(userId);
-  const handleBackToOverview = () => setSelectedUserId(null);
 
   return (
     <div className="min-h-screen bg-gray-50">
