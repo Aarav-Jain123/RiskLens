@@ -6,16 +6,26 @@ import { EntriesTable } from './EntriesTable';
 import { DashboardView } from './DashboardView';
 import { UserCarousel } from './UserCarousel';
 import { UploadPage } from './UploadPage';
-import { DashboardData } from '../types/dashboard';
 
 export default function App() {
   const [isFileUploaded, setIsFileUploaded] = useState(false);
-  const [dashboardData, setDashboardData] = useState<DashboardData | null>(null);
   const [currentView, setCurrentView] = useState<'overview' | 'dashboard'>('overview');
   const [selectedUserId, setSelectedUserId] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  // 🔹 GET request + mapping
+  // 🔹 Model performance
+  const [accuracy, setAccuracy] = useState<string | null>(null);
+  const [modelStatus, setModelStatus] = useState<string | null>(null);
+
+  // 🔹 Threat analytics
+  const [totalThreatCount, setTotalThreatCount] = useState<number | null>(null);
+  const [threatsPerDay, setThreatsPerDay] = useState<Record<string, number>>({});
+  const [topThreatSubclasses, setTopThreatSubclasses] = useState<Record<string, number>>({});
+  const [riskPercentageByEvent, setRiskPercentageByEvent] = useState<Record<string, string>>({});
+
+  // 🔹 User activity
+  const [users, setUsers] = useState<any[]>([]);
+
   useEffect(() => {
     const fetchDashboardData = async () => {
       setLoading(true);
@@ -24,17 +34,21 @@ export default function App() {
           'https://risklensbackend-g8apbyf5dgceefbx.centralindia-01.azurewebsites.net/clean_dataset_page/'
         );
 
-        if (!res.ok) throw new Error('Failed to fetch');
+        if (!res.ok) throw new Error('Fetch failed');
 
         const raw = await res.json();
 
-        const mappedData: DashboardData = {
-          model_performance: raw.model_performance,
-          threat_analytics: raw.threat_analytics,
-          user_activity_monitor: raw.user_activity_monitor,
-        };
+        // ✅ FLATTEN EVERYTHING HERE
+        setAccuracy(raw.model_performance?.accuracy ?? null);
+        setModelStatus(raw.model_performance?.status ?? null);
 
-        setDashboardData(mappedData);
+        setTotalThreatCount(raw.threat_analytics?.total_threat_count ?? null);
+        setThreatsPerDay(raw.threat_analytics?.threats_per_day ?? {});
+        setTopThreatSubclasses(raw.threat_analytics?.top_threat_subclasses ?? {});
+        setRiskPercentageByEvent(raw.threat_analytics?.risk_percentage_by_event ?? {});
+
+        setUsers(raw.user_activity_monitor ?? []);
+
         setIsFileUploaded(true);
       } catch (err) {
         console.error('Dashboard fetch failed:', err);
@@ -46,14 +60,8 @@ export default function App() {
     fetchDashboardData();
   }, []);
 
-  const handleUploadComplete = (data: DashboardData) => {
-    setDashboardData(data);
-    setIsFileUploaded(true);
-  };
-
   const handleNewReport = () => {
     setIsFileUploaded(false);
-    setDashboardData(null);
     setCurrentView('overview');
     setSelectedUserId(null);
   };
@@ -68,12 +76,10 @@ export default function App() {
     setSelectedUserId(null);
   };
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+  if (loading) return <div>Loading...</div>;
 
-  if (!isFileUploaded || !dashboardData) {
-    return <UploadPage onUploadComplete={handleUploadComplete} />;
+  if (!isFileUploaded) {
+    return <UploadPage onUploadComplete={() => {}} />;
   }
 
   return (
@@ -87,19 +93,41 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-6 py-8 space-y-8">
         {currentView === 'overview' ? (
           <>
-            <HeroPanel data={dashboardData.model_performance} />
-            <SummaryCards data={dashboardData.threat_analytics} />
-            <UserCarousel
-              data={dashboardData.user_activity_monitor}
-              onSelectUser={handleSelectUser}
-            />
+            {accuracy && modelStatus && (
+              <HeroPanel data={{ accuracy, status: modelStatus }} />
+            )}
+
+            {totalThreatCount !== null && (
+              <SummaryCards
+                data={{
+                  total_threat_count: totalThreatCount,
+                  threats_per_day: threatsPerDay,
+                  top_threat_subclasses: topThreatSubclasses,
+                  risk_percentage_by_event: riskPercentageByEvent,
+                }}
+              />
+            )}
+
+            {users.length > 0 && (
+              <UserCarousel data={users} onSelectUser={handleSelectUser} />
+            )}
+
             <EntriesTable />
           </>
         ) : (
           selectedUserId && (
             <DashboardView
               userId={selectedUserId}
-              data={dashboardData}
+              data={{
+                model_performance: { accuracy, status: modelStatus },
+                threat_analytics: {
+                  total_threat_count: totalThreatCount,
+                  threats_per_day: threatsPerDay,
+                  top_threat_subclasses: topThreatSubclasses,
+                  risk_percentage_by_event: riskPercentageByEvent,
+                },
+                user_activity_monitor: users,
+              }}
               onBack={handleBackToOverview}
             />
           )
