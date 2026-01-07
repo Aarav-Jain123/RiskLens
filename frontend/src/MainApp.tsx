@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import UnusualDataSet from '..src/components/CleanDataSet.tsx'
-import CleanDataSet from '..src/components/UnusualDataSet.tsx'
+import CleanDataSet from './components/CleanDataSet'
+import UnusualDataSet from './components/UnusualDataSet.tsx'
 
 function MainApp() {
   return (
