@@ -1,10 +1,10 @@
 import { useState, useRef } from 'react';
-import { Navbar } from './components/Navbar';
-import { HeroPanel } from './components/HeroPanel';
-import { SummaryCards } from './components/SummaryCards';
-import { EntriesTable } from './components/EntriesTable';
-import { DashboardView } from './components/DashboardView';
-import { UserCarousel } from './components/UserCarousel';
+import { Navbar } from './Navbar';
+import { HeroPanel } from './HeroPanel';
+import { SummaryCards } from './SummaryCards';
+import { EntriesTable } from './EntriesTable';
+import { DashboardView } from './DashboardView';
+import { UserCarousel } from './UserCarousel';
 import { DashboardData } from './types/dashboard';
 
 export default function UnusualDataSet() {
