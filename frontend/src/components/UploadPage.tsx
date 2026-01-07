@@ -186,7 +186,7 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
           {/* Situation */}
           <section className="bg-white rounded-xl p-10 shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100">
             <h2 className="text-gray-900 mb-6 text-3xl">A situation many recognize</h2>
-            <div className="prose prose-gray max-w-none space-y-4">
+            <div className="max-w-none space-y-4">
               <p className="text-gray-700 leading-relaxed text-lg">
                 If you've ever been responsible for a team, a system, or an organization, you know this feeling.
               </p>
@@ -220,7 +220,7 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
           {/* The Real Problem */}
           <section className="bg-gradient-to-br from-slate-50 to-gray-50 rounded-xl p-10 shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-200">
             <h2 className="text-gray-900 mb-6 text-3xl">The real problem</h2>
-            <div className="prose prose-gray max-w-none space-y-4">
+            <div className="max-w-none space-y-4">
               <p className="text-gray-700 leading-relaxed text-lg">
                 Most organizations already collect employee activity data. What they lack is confidence in what it means.
               </p>
@@ -253,7 +253,7 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
           {/* What RiskLens Changes */}
           <section className="bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 rounded-2xl p-10 shadow-lg hover:shadow-2xl transition-shadow duration-300 border-2 border-blue-200">
             <h2 className="text-gray-900 mb-6 text-3xl">What RiskLens changes</h2>
-            <div className="prose prose-gray max-w-none space-y-4">
+            <div className="max-w-none space-y-4">
               <p className="text-gray-700 leading-relaxed text-lg">
                 RiskLens is built for people who carry responsibility.
               </p>
@@ -289,7 +289,7 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
           {/* Comparison */}
           <section className="bg-white rounded-xl p-10 shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100">
             <h2 className="text-gray-900 mb-6 text-3xl">A simple comparison (this matters)</h2>
-            <div className="prose prose-gray max-w-none space-y-4">
+            <div className="max-w-none space-y-4">
               <p className="text-gray-700 leading-relaxed text-lg">
                 To understand the difference RiskLens makes, consider two real-world scenarios.
               </p>
@@ -434,7 +434,7 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
           {/* Why This Matters */}
           <section className="bg-white rounded-xl p-10 shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100">
             <h2 className="text-gray-900 mb-6 text-3xl">Why this matters</h2>
-            <div className="prose prose-gray max-w-none space-y-4">
+            <div className="max-w-none space-y-4">
               <p className="text-gray-700 leading-relaxed text-lg">
                 Most serious organizational issues do not begin dramatically. They begin quietly, with signals no one had time to interpret.
               </p>
@@ -472,7 +472,7 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
           {/* Designed to Grow */}
           <section className="bg-white rounded-xl p-10 shadow-md hover:shadow-xl transition-shadow duration-300 border border-gray-100">
             <h2 className="text-gray-900 mb-6 text-3xl">Designed to grow, carefully</h2>
-            <div className="prose prose-gray max-w-none space-y-4">
+            <div className="max-w-none space-y-4">
               <p className="text-gray-700 leading-relaxed text-lg">
                 RiskLens is intentionally scoped, but can be extended to:
               </p>
