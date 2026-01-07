@@ -45,83 +45,71 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
     fileInputRef.current?.click();
   };
 
-const handleFileChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
+const handleFileChange = async (
+  event: React.ChangeEvent<HTMLInputElement>
+) => {
+  const input = event.target;
+  const file = input.files?.[0];
+  if (!file) return;
 
-    const validTypes = [
-      'application/vnd.ms-excel',
-      'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-      'text/csv',
-    ];
-    
-    if (!validTypes.includes(file.type) && !file.name.match(/\.(xlsx|xls|csv)$/i)) {
-      setError('Please select a valid Excel or CSV file (.xlsx, .xls, or .csv)');
-      return;
+  // Allow validation by extension ONLY (MIME lies for CSV)
+  const isValidFile = /\.(xlsx|xls|csv)$/i.test(file.name);
+  if (!isValidFile) {
+    setError('Please select a valid Excel or CSV file (.xlsx, .xls, .csv)');
+    input.value = '';
+    return;
+  }
+
+  setError(null);
+  setUploading(true);
+
+  const isDev = import.meta.env.MODE === 'development';
+  const baseURL = isDev
+    ? import.meta.env.VITE_API_BASE_URL_LOCAL
+    : import.meta.env.VITE_API_BASE_URL_PROD;
+
+  if (!baseURL) {
+    setError('API base URL is not configured');
+    setUploading(false);
+    return;
+  }
+
+  try {
+    const formData = new FormData();
+    formData.append('csv_file', file);
+
+    const response = await fetch(`${baseURL}`, {
+      method: 'POST',
+      body: formData,
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(
+        `Upload failed (${response.status}): ${errorText}`
+      );
     }
 
-    setError(null);
-    setUploading(true);
-
-    const inDevMode = import.meta.env.MODE === 'development';
-    const apiURL = inDevMode ? import.meta.env.VITE_API_BASE_URL_LOCAL : import.meta.env.VITE_API_BASE_URL_PROD;
-
-    try {
-      const formData = new FormData();
-      formData.append('csv_file', file);
-
-      const response = await fetch(apiURL, {
-        method: 'POST',
-        body: formData,
-      });
-
-      if (!response.ok) {
-        throw new Error('Upload failed');
-      }
-
-      const data: DashboardData = await response.json();
-      onUploadComplete(data);
-    } catch (err) {
-      setError('Failed to upload file. Please try again.');
-      console.error('Upload error:', err);
-    } finally {
-      setUploading(false);
+    const contentType = response.headers.get('content-type');
+    if (!contentType?.includes('application/json')) {
+      throw new Error('Server did not return JSON');
     }
-  };
 
-      if (!response.ok) {
-        // Try to get error message from response
-        const contentType = response.headers.get('content-type');
-        let errorMessage = 'Upload failed';
-        
-        if (contentType && contentType.includes('application/json')) {
-          const errorData = await response.json();
-          errorMessage = errorData.message || errorMessage;
-        } else {
-          const errorText = await response.text();
-          errorMessage = `Server error: ${response.status} ${response.statusText}`;
-        }
-        
-        throw new Error(errorMessage);
-      }
+    const data: DashboardData = await response.json();
+    onUploadComplete(data);
+  } catch (error) {
+    console.error('Upload error:', error);
+    setError(
+      error instanceof Error
+        ? error.message
+        : 'Failed to upload file'
+    );
+  } finally {
+    setUploading(false);
+    input.value = ''; // allow re-upload of same file
+  }
+};
 
-      // Check if response is JSON before parsing
-      const contentType = response.headers.get('content-type');
-      if (!contentType || !contentType.includes('application/json')) {
-        throw new Error('Server did not return JSON. Please check your backend URL.');
-      }
-
-      // If successful, call the callback to show overview
-      const data: DashboardData = await response.json();
-      onUploadComplete(data);
-    } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : 'Failed to upload file. Please try again.';
-      setError(errorMessage);
-      console.error('Upload error:', err);
-    } finally {
-      setUploading(false);
-    }
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
