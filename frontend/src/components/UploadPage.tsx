@@ -3,12 +3,20 @@ import { Plus, Upload, FileSpreadsheet, Shield, Eye, AlertCircle, CheckCircle, C
 import { Button } from './ui/button';
 import { Card } from './ui/card';
 import { DashboardData } from '../types/dashboard';
+import CleanDataSet from "./CleanDataSet";
+import UnusualDataSet from "./UnusualDataSet";
 
 interface UploadPageProps {
   onUploadComplete: (data: DashboardData) => void;
 }
+type View = "cards" | "clean" | "unusual";
 
 export function UploadPage({ onUploadComplete }: UploadPageProps) {
+    const [view, setView] = useState<View>("cards");
+
+  if (view === "clean") return <CleanDataSet onBack={() => setView("cards")} />;
+  if (view === "unusual") return <UnusualDataSet onBack={() => setView("cards")} />;
+  
   const [uploading, setUploading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -298,36 +306,36 @@ const handleFileChange = async (
                 You can review both below:
               </p>
               <div className="grid md:grid-cols-2 gap-8">
-                <Card className="p-8 border-2 border-green-300 bg-gradient-to-br from-green-50 to-emerald-50 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  <div className="text-3xl mb-3">🔹</div>
-                  <h3 className="text-gray-900 font-semibold mb-3 text-xl">Clean activity dataset</h3>
-                  <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-                    Represents routine, expected employee behavior over a normal reporting period.
-                  </p>
-                  <a 
-                    href="https://risklensbackend-g8apbyf5dgceefbx.centralindia-01.azurewebsites.net/clean_dataset_page/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm font-semibold underline hover:no-underline transition-all"
-                  >
-                    View clean dataset analysis →
-                  </a>
-                </Card>
-                <Card className="p-8 border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-orange-50 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                  <div className="text-3xl mb-3">🔹</div>
-                  <h3 className="text-gray-900 font-semibold mb-3 text-xl">Unusual activity dataset</h3>
-                  <p className="text-sm text-gray-700 mb-6 leading-relaxed">
-                    Contains subtle patterns that may warrant review when seen in context.
-                  </p>
-                  <a 
-                    href="https://risklensbackend-g8apbyf5dgceefbx.centralindia-01.azurewebsites.net/clean_dataset_page/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm font-semibold underline hover:no-underline transition-all"
-                  >
-                    View unusual dataset analysis →
-                  </a>
-                </Card>
+            <Card className="p-8 border-2 border-green-300 bg-gradient-to-br from-green-50 to-emerald-50 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div className="text-3xl mb-3">🔹</div>
+              <h3 className="text-gray-900 font-semibold mb-3 text-xl">
+                Clean activity dataset
+              </h3>
+              <p className="text-sm text-gray-700 mb-6 leading-relaxed">
+                Represents routine, expected employee behavior over a normal reporting period.
+              </p>
+              <button
+                onClick={() => setView("clean")}
+                className="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm font-semibold underline hover:no-underline transition-all"
+              >
+                View clean dataset analysis →
+              </button>
+            </Card>
+              <Card className="p-8 border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-orange-50 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="text-3xl mb-3">🔹</div>
+                <h3 className="text-gray-900 font-semibold mb-3 text-xl">
+                  Unusual activity dataset
+                </h3>
+                <p className="text-sm text-gray-700 mb-6 leading-relaxed">
+                  Contains subtle patterns that may warrant review when seen in context.
+                </p>
+                <button
+                  onClick={() => setView("unusual")}
+                  className="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm font-semibold underline hover:no-underline transition-all"
+                >
+                  View unusual dataset analysis →
+                </button>
+              </Card>
               </div>
               <p className="text-gray-700 leading-relaxed text-lg mt-8">
                 These datasets are analyzed using the same process. The difference lies in what becomes visible.
