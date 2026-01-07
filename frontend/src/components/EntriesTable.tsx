@@ -25,7 +25,7 @@ const threats = [
     source: '192.168.1.45',
     target: 'Server-DB-01',
     status: 'blocked',
-    timestamp: '2024-01-15 14:23:45',
+    timestamp: '2026-01-15 14:23:45',
   },
   {
     id: 'THR-002',
@@ -34,7 +34,7 @@ const threats = [
     source: 'external@suspicious.com',
     target: 'user@company.com',
     status: 'quarantined',
-    timestamp: '2024-01-15 13:45:12',
+    timestamp: '2026-01-15 13:45:12',
   },
   {
     id: 'THR-003',
@@ -43,7 +43,7 @@ const threats = [
     source: '10.0.0.123',
     target: 'Admin Portal',
     status: 'blocked',
-    timestamp: '2024-01-15 12:15:30',
+    timestamp: '2026-01-15 12:15:30',
   },
   {
     id: 'THR-004',
@@ -52,7 +52,7 @@ const threats = [
     source: 'Multiple IPs',
     target: 'Web Server',
     status: 'mitigating',
-    timestamp: '2024-01-15 11:50:22',
+    timestamp: '2026-01-15 11:50:22',
   },
   {
     id: 'THR-005',
@@ -61,7 +61,7 @@ const threats = [
     source: '172.16.0.88',
     target: 'Firewall',
     status: 'monitoring',
-    timestamp: '2024-01-15 10:30:18',
+    timestamp: '2026-01-15 10:30:18',
   },
   {
     id: 'THR-006',
@@ -70,7 +70,7 @@ const threats = [
     source: 'email-attachment',
     target: 'Workstation-42',
     status: 'blocked',
-    timestamp: '2024-01-15 09:12:05',
+    timestamp: '2026-01-15 09:12:05',
   },
   {
     id: 'THR-007',
@@ -79,7 +79,7 @@ const threats = [
     source: '203.0.113.45',
     target: 'API Gateway',
     status: 'blocked',
-    timestamp: '2024-01-15 08:45:33',
+    timestamp: '2026-01-15 08:45:33',
   },
   {
     id: 'THR-008',
@@ -88,7 +88,7 @@ const threats = [
     source: '198.51.100.12',
     target: 'Network',
     status: 'logged',
-    timestamp: '2024-01-15 07:22:19',
+    timestamp: '2026-01-15 07:22:19',
   },
 ];
 
