@@ -45,11 +45,10 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
     fileInputRef.current?.click();
   };
 
-  const handleFileChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
+const handleFileChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (!file) return;
 
-    // Validate file type
     const validTypes = [
       'application/vnd.ms-excel',
       'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
@@ -64,17 +63,31 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
     setError(null);
     setUploading(true);
 
-    try {
-      // Create FormData to send file
-      const formData = new FormData();
-      formData.append('file', file);
+    const inDevMode = import.meta.env.MODE === 'development';
+    const apiURL = inDevMode ? import.meta.env.VITE_API_BASE_URL_LOCAL : import.meta.env.VITE_API_BASE_URL_PROD;
 
-      // Send POST request to backend
-      // Replace 'YOUR_BACKEND_URL' with your actual backend endpoint
-      const response = await fetch('https://risklensbackend-g8apbyf5dgceefbx.centralindia-01.azurewebsites.net/model_page/', {
+    try {
+      const formData = new FormData();
+      formData.append('csv_file', file);
+
+      const response = await fetch(apiURL, {
         method: 'POST',
         body: formData,
       });
+
+      if (!response.ok) {
+        throw new Error('Upload failed');
+      }
+
+      const data: DashboardData = await response.json();
+      onUploadComplete(data);
+    } catch (err) {
+      setError('Failed to upload file. Please try again.');
+      console.error('Upload error:', err);
+    } finally {
+      setUploading(false);
+    }
+  };
 
       if (!response.ok) {
         // Try to get error message from response
