@@ -45,6 +45,7 @@
   
     // Calculate threat percentage
     const threatPercentage = totalEvents > 0 ? ((threatEvents / totalEvents) * 100).toFixed(1) : '0.0';
+    const alertReason = userData?.alert_reason || 0;
   
     return (
       <div className="space-y-6">
