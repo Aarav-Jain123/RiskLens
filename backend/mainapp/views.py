@@ -4,6 +4,8 @@ from rest_framework.decorators import api_view, parser_classes
 from .forms import *
 from .model import main
 from rest_framework.parsers import MultiPartParser, FormParser
+from django.conf import settings
+import os
 
 
 # Create your views here.
@@ -24,3 +26,17 @@ def model_page(request):
         return Response(threat_data, status=200)
     else:
         return Response({"status": "error", "errors": form.errors}, status=400)
+
+
+@api_view(['GET'])
+def clean_dataset_page(request):
+    csv_path = os.path.join(settings.BASE_DIR, 'clean_dataset.csv')
+    threat_data = main(csv_path)
+    return Response(threat_data, status=200)
+ 
+
+@api_view(['GET'])
+def dirty_dataset_page(request):
+    csv_path = os.path.join(settings.BASE_DIR, 'dirty_dataset.csv')
+    threat_data = main(csv_path)
+    return Response(threat_data, status=200)
