@@ -304,7 +304,7 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
                     Represents routine, expected employee behavior over a normal reporting period.
                   </p>
                   <a 
-                    href="https://risklensbackend-g8apbyf5dgceefbx.centralindia-01.azurewebsites.net/clean_dataset_page/"
+                    href="/clean/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm font-semibold underline hover:no-underline transition-all"
@@ -319,7 +319,7 @@ export function UploadPage({ onUploadComplete }: UploadPageProps) {
                     Contains subtle patterns that may warrant review when seen in context.
                   </p>
                   <a 
-                    href="https://risklensbackend-g8apbyf5dgceefbx.centralindia-01.azurewebsites.net/clean_dataset_page/"
+                    href="/unusual/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm font-semibold underline hover:no-underline transition-all"
