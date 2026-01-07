@@ -5,7 +5,7 @@ import { SummaryCards } from './SummaryCards';
 import { EntriesTable } from './EntriesTable';
 import { DashboardView } from './DashboardView';
 import { UserCarousel } from './UserCarousel';
-import { DashboardData } from './types/dashboard';
+import { DashboardData } from '../types/dashboard';
 
 export default function UnusualDataSet() {
   const [currentView, setCurrentView] = useState('overview');
