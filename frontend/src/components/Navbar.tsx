@@ -29,14 +29,6 @@ export function Navbar({ currentView, onViewChange, onNewReport }: NavbarProps) 
           >
             Overview
           </button>
-          <button
-            onClick={() => onViewChange('dashboard')}
-            className={`text-sm transition-colors ${
-              currentView === 'dashboard' ? 'text-blue-600' : 'text-gray-600 hover:text-blue-600'
-            }`}
-          >
-            Dashboard
-          </button>
         </div>
 
         {/* Spacer */}
