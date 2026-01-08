@@ -14,9 +14,9 @@ export function Navbar({ currentView, onViewChange, onNewReport }: NavbarProps) 
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold">C</span>
+            <span className="text-white font-bold">R</span>
           </div>
-          <span className="font-semibold">CyberSec</span>
+          <span className="font-semibold">RiskLens</span>
         </div>
 
         {/* Navigation Links */}
