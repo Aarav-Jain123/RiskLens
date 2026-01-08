@@ -38,8 +38,7 @@ export function Navbar({ currentView, onViewChange, onNewReport }: NavbarProps) 
         {/* Actions */}
         <div className="flex items-center gap-3">
           <Button className="gap-2" onClick={onNewReport}>
-            <Plus className="h-4 w-4" />
-            New Report
+            Home
           </Button>
         </div>
       </div>
