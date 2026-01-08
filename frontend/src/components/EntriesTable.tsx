@@ -109,7 +109,7 @@ const statusConfig = {
 
 export function EntriesTable() {
   return (
-      
+    <div className="space-y-4">
       <Card>
         <Table>
           <TableHeader>
